@@ -1,0 +1,2361 @@
+Script started on 2021-10-27 21:28:54+0200
+]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ npm start[K[K[K[K[Ktest
+
+> markdown-previewer@0.1.0 test /mnt/c/Users/renau/Desktop/Projets/markdown-previewer
+> react-scripts test
+
+[2J[3J[H[1m[2mDetermining test suites to run...[22m[22m[999D[K
+[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+[K[1A[K[1A[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+[K[1A[K[1A  [31m✕[39m [2mrenders learn react link (87 ms)[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+[K[1A[K[1A
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+[K[1A[K[1A[1m[31m  [1m● [22m[1mrenders learn react link[39m[22m
+
+    TypeError: Cannot read property 'rest' of undefined
+    Please report this to https://github.com/markedjs/marked.
+[2m[22m
+[2m    [0m [90m 11 |[39m[0m[22m
+[2m    [0m [90m 12 |[39m   highlight[33m:[39m [36mfunction[39m (code[33m,[39m lang) {[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 13 |[39m 		[36mreturn[39m [33mPrism[39m[33m.[39mhighlight(code[33m,[39m [33mPrism[39m[33m.[39mlanguages[lang][33m,[39m lang)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m 		             [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 14 |[39m 	}[0m[22m
+[2m    [0m [90m 15 |[39m })[0m[22m
+[2m    [0m [90m 16 |[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.tokenize ([22m[2mnode_modules/prismjs/prism.js[2m:658:23)[22m[2m[22m
+[2m      [2mat Object.highlight ([22m[2mnode_modules/prismjs/prism.js[2m:628:19)[22m[2m[22m
+[2m      [2mat Object.highlight ([22m[2msrc/App.js[2m:13:16)[22m[2m[22m
+[2m      [2mat Renderer.code ([22m[2mnode_modules/marked/src/Renderer.js[2m:18:32)[22m[2m[22m
+[2m      [2mat Parser.parse ([22m[2mnode_modules/marked/src/Parser.js[2m:93:32)[22m[2m[22m
+[2m      [2mat Function.parse ([22m[2mnode_modules/marked/src/Parser.js[2m:27:19)[22m[2m[22m
+[2m      [2mat marked ([22m[2mnode_modules/marked/src/marked.js[2m:113:19)[22m[2m[22m
+[2m      [2mat Preview ([22m[2msrc/App.js[2m:150:17)[22m[2m[22m
+[2m      [2mat renderWithHooks ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:14985:18)[22m[2m[22m
+[2m      [2mat mountIndeterminateComponent ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:17811:13)[22m[2m[22m
+[2m      [2mat beginWork ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:19049:16)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3945:14)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callTheUserObjectsOperation ([22m[2mnode_modules/jsdom/lib/jsdom/living/generated/EventListener.js[2m:26:30)[22m[2m[22m
+[2m      [2mat innerInvokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:338:25)[22m[2m[22m
+[2m      [2mat invokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:274:3)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl._dispatch ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:221:9)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:94:17)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/generated/EventTarget.js[2m:231:34)[22m[2m[22m
+[2m      [2mat Object.invokeGuardedCallbackDev ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3994:16)[22m[2m[22m
+[2m      [2mat invokeGuardedCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:4056:31)[22m[2m[22m
+[2m      [2mat beginWork$1 ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:23964:7)[22m[2m[22m
+[2m      [2mat performUnitOfWork ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22779:12)[22m[2m[22m
+[2m      [2mat workLoopSync ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22707:5)[22m[2m[22m
+[2m      [2mat renderRootSync ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22670:7)[22m[2m[22m
+[2m      [2mat performSyncWorkOnRoot ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22293:18)[22m[2m[22m
+[2m      [2mat scheduleUpdateOnFiber ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:21881:7)[22m[2m[22m
+[2m      [2mat updateContainer ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:25482:3)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26021:7[22m[2m[22m
+[2m      [2mat unbatchedUpdates ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22431:12)[22m[2m[22m
+[2m      [2mat legacyRenderSubtreeIntoContainer ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26020:5)[22m[2m[22m
+[2m      [2mat Object.render ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26103:10)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:101:25[22m[2m[22m
+[2m      [2mat batchedUpdates$1 ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22380:12)[22m[2m[22m
+[2m      [2mat act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:1042:14)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:97:26)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36msrc/App.test.js[39m[0m[2m:5:3)[22m[2m[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+[K[1A[K[1A[999D[K  [2m[31mconsole.error[39m[22m
+[31m    Error: Uncaught [TypeError: Cannot read property 'rest' of undefined[39m
+[31m    Please report this to https://github.com/markedjs/marked.][39m
+[31m        at reportException (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)[39m
+[31m        at innerInvokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:341:9)[39m
+[31m        at invokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)[39m
+[31m        at HTMLUnknownElementImpl._dispatch (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)[39m
+[31m        at HTMLUnknownElementImpl.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)[39m
+[31m        at HTMLUnknownElement.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)[39m
+[31m        at Object.invokeGuardedCallbackDev (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3994:16)[39m
+[31m        at invokeGuardedCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:4056:31)[39m
+[31m        at beginWork$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:23964:7)[39m
+[31m        at performUnitOfWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22779:12) TypeError: Cannot read property 'rest' of undefined[39m
+[31m    Please report this to https://github.com/markedjs/marked.[39m
+[31m        at Object.tokenize (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/prismjs/prism.js:658:23)[39m
+[31m        at Object.highlight (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/prismjs/prism.js:628:19)[39m
+[31m        at Object.highlight (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:13:16)[39m
+[31m        at Renderer.code (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Renderer.js:18:32)[39m
+[31m        at Parser.parse (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Parser.js:93:32)[39m
+[31m        at Function.parse (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Parser.js:27:19)[39m
+[31m        at marked (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/marked.js:113:19)[39m
+[31m        at Preview (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:150:17)[39m
+[31m        at renderWithHooks (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:14985:18)[39m
+[31m        at mountIndeterminateComponent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:17811:13)[39m
+[31m        at beginWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:19049:16)[39m
+[31m        at HTMLUnknownElement.callCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3945:14)[39m
+[31m        at HTMLUnknownElement.callTheUserObjectsOperation (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)[39m
+[31m        at innerInvokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)[39m
+[31m        at invokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)[39m
+[31m        at HTMLUnknownElementImpl._dispatch (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)[39m
+[31m        at HTMLUnknownElementImpl.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)[39m
+[31m        at HTMLUnknownElement.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)[39m
+[31m        at Object.invokeGuardedCallbackDev (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3994:16)[39m
+[31m        at invokeGuardedCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:4056:31)[39m
+[31m        at beginWork$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:23964:7)[39m
+[31m        at performUnitOfWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22779:12)[39m
+[31m        at workLoopSync (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22707:5)[39m
+[31m        at renderRootSync (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22670:7)[39m
+[31m        at performSyncWorkOnRoot (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22293:18)[39m
+[31m        at scheduleUpdateOnFiber (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:21881:7)[39m
+[31m        at updateContainer (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:25482:3)[39m
+[31m        at /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26021:7[39m
+[31m        at unbatchedUpdates (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22431:12)[39m
+[31m        at legacyRenderSubtreeIntoContainer (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26020:5)[39m
+[31m        at Object.render (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26103:10)[39m
+[31m        at /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/@testing-library/react/dist/pure.js:101:25[39m
+[31m        at batchedUpdates$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22380:12)[39m
+[31m        at act (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)[39m
+[31m        at render (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/@testing-library/react/dist/pure.js:97:26)[39m
+[31m        at Object.<anonymous> (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.test.js:5:3)[39m
+[31m        at Promise.then.completed (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/utils.js:276:28)[39m
+[31m        at new Promise (<anonymous>)[39m
+[31m        at callAsyncCircusFn (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/utils.js:216:10)[39m
+[31m        at _callCircusTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:212:40)[39m
+[31m        at processTicksAndRejections (internal/process/task_queues.js:95:5)[39m
+[31m        at _runTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:149:3)[39m
+[31m        at _runTestsForDescribeBlock (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:63:9)[39m
+[31m        at run (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:25:3)[39m
+[31m        at runAndTransformResultsToJestFormat (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)[39m
+[31m        at jestAdapter (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)[39m
+[31m        at runTestInternal (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/runTest.js:380:16)[39m
+[31m        at runTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/runTest.js:472:34)[39m
+[2m[22m
+[2m      [2mat VirtualConsole.<anonymous> ([22m[2mnode_modules/jsdom/lib/jsdom/virtual-console.js[2m:29:45)[22m[2m[22m
+[2m      [2mat reportException ([22m[2mnode_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js[2m:70:28)[22m[2m[22m
+[2m      [2mat innerInvokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:341:9)[22m[2m[22m
+[2m      [2mat invokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:274:3)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl._dispatch ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:221:9)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:94:17)[22m[2m[22m
+
+[999D[K  [2m[31mconsole.error[39m[22m
+[31m    The above error occurred in the <Preview> component:[39m
+[31m    [39m
+[31m        at Preview (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:150:30)[39m
+[31m        at div[39m
+[31m        at div[39m
+[31m        at App (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:20:49)[39m
+[31m    [39m
+[31m    Consider adding an error boundary to your tree to customize error handling behavior.[39m
+[31m    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.[39m
+[2m[22m
+[2m      [2mat logCapturedError ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20085:23)[22m[2m[22m
+[2m      [2mat update.callback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20118:5)[22m[2m[22m
+[2m      [2mat callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:12318:12)[22m[2m[22m
+[2m      [2mat commitUpdateQueue ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:12339:9)[22m[2m[22m
+[2m      [2mat commitLifeCycles ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20736:11)[22m[2m[22m
+[2m      [2mat commitLayoutEffects ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:23426:7)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3945:14)[22m[2m[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+[K[1A[K[1A[999D[K[1mTest Suites: [22m[1m[31m1 failed[39m[22m, 1 total
+[1mTests:       [22m[1m[31m1 failed[39m[22m, 1 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2.265 s
+[2mRan all test suites[22m[2m related to changed files[22m[2m.[22m
+
+[1mWatch Usage[22m
+[2m › Press [22ma[2m to run all tests.[22m
+[2m › Press [22mf[2m to run only failed tests.[22m
+[2m › Press[22m q [2mto quit watch mode.[22m
+[2m › Press[22m p [2mto filter by a filename regex pattern.[22m
+[2m › Press[22m t [2mto filter by a test name regex pattern.[22m
+[2m › Press [22mEnter[2m to trigger a test run.[22m
+[2J[3J[H[1m[2mDetermining test suites to run...[22m[22m[999D[K
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        0 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        0 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        1 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A  [31m✕[39m [2mrenders learn react link (127 ms)[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[1m[31m  [1m● [22m[1mrenders learn react link[39m[22m
+
+    TypeError: Cannot read property 'rest' of undefined
+    Please report this to https://github.com/markedjs/marked.
+[2m[22m
+[2m    [0m [90m 11 |[39m[0m[22m
+[2m    [0m [90m 12 |[39m   highlight[33m:[39m [36mfunction[39m (code[33m,[39m lang) {[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 13 |[39m 		[36mreturn[39m [33mPrism[39m[33m.[39mhighlight(code[33m,[39m [33mPrism[39m[33m.[39mlanguages[lang][33m,[39m lang)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m 		             [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 14 |[39m 	}[0m[22m
+[2m    [0m [90m 15 |[39m })[0m[22m
+[2m    [0m [90m 16 |[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.tokenize ([22m[2mnode_modules/prismjs/prism.js[2m:658:23)[22m[2m[22m
+[2m      [2mat Object.highlight ([22m[2mnode_modules/prismjs/prism.js[2m:628:19)[22m[2m[22m
+[2m      [2mat Object.highlight ([22m[2msrc/App.js[2m:13:16)[22m[2m[22m
+[2m      [2mat Renderer.code ([22m[2mnode_modules/marked/src/Renderer.js[2m:18:32)[22m[2m[22m
+[2m      [2mat Parser.parse ([22m[2mnode_modules/marked/src/Parser.js[2m:93:32)[22m[2m[22m
+[2m      [2mat Function.parse ([22m[2mnode_modules/marked/src/Parser.js[2m:27:19)[22m[2m[22m
+[2m      [2mat marked ([22m[2mnode_modules/marked/src/marked.js[2m:113:19)[22m[2m[22m
+[2m      [2mat Preview ([22m[2msrc/App.js[2m:150:17)[22m[2m[22m
+[2m      [2mat renderWithHooks ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:14985:18)[22m[2m[22m
+[2m      [2mat mountIndeterminateComponent ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:17811:13)[22m[2m[22m
+[2m      [2mat beginWork ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:19049:16)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3945:14)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callTheUserObjectsOperation ([22m[2mnode_modules/jsdom/lib/jsdom/living/generated/EventListener.js[2m:26:30)[22m[2m[22m
+[2m      [2mat innerInvokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:338:25)[22m[2m[22m
+[2m      [2mat invokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:274:3)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl._dispatch ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:221:9)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:94:17)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/generated/EventTarget.js[2m:231:34)[22m[2m[22m
+[2m      [2mat Object.invokeGuardedCallbackDev ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3994:16)[22m[2m[22m
+[2m      [2mat invokeGuardedCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:4056:31)[22m[2m[22m
+[2m      [2mat beginWork$1 ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:23964:7)[22m[2m[22m
+[2m      [2mat performUnitOfWork ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22779:12)[22m[2m[22m
+[2m      [2mat workLoopSync ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22707:5)[22m[2m[22m
+[2m      [2mat renderRootSync ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22670:7)[22m[2m[22m
+[2m      [2mat performSyncWorkOnRoot ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22293:18)[22m[2m[22m
+[2m      [2mat scheduleUpdateOnFiber ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:21881:7)[22m[2m[22m
+[2m      [2mat updateContainer ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:25482:3)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26021:7[22m[2m[22m
+[2m      [2mat unbatchedUpdates ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22431:12)[22m[2m[22m
+[2m      [2mat legacyRenderSubtreeIntoContainer ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26020:5)[22m[2m[22m
+[2m      [2mat Object.render ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26103:10)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:101:25[22m[2m[22m
+[2m      [2mat batchedUpdates$1 ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22380:12)[22m[2m[22m
+[2m      [2mat act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:1042:14)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:97:26)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36msrc/App.test.js[39m[0m[2m:5:3)[22m[2m[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A  [2m[31mconsole.error[39m[22m
+[31m    Error: Uncaught [TypeError: Cannot read property 'rest' of undefined[39m
+[31m    Please report this to https://github.com/markedjs/marked.][39m
+[31m        at reportException (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)[39m
+[31m        at innerInvokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:341:9)[39m
+[31m        at invokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)[39m
+[31m        at HTMLUnknownElementImpl._dispatch (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)[39m
+[31m        at HTMLUnknownElementImpl.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)[39m
+[31m        at HTMLUnknownElement.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)[39m
+[31m        at Object.invokeGuardedCallbackDev (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3994:16)[39m
+[31m        at invokeGuardedCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:4056:31)[39m
+[31m        at beginWork$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:23964:7)[39m
+[31m        at performUnitOfWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22779:12) TypeError: Cannot read property 'rest' of undefined[39m
+[31m    Please report this to https://github.com/markedjs/marked.[39m
+[31m        at Object.tokenize (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/prismjs/prism.js:658:23)[39m
+[31m        at Object.highlight (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/prismjs/prism.js:628:19)[39m
+[31m        at Object.highlight (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:13:16)[39m
+[31m        at Renderer.code (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Renderer.js:18:32)[39m
+[31m        at Parser.parse (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Parser.js:93:32)[39m
+[31m        at Function.parse (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Parser.js:27:19)[39m
+[31m        at marked (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/marked.js:113:19)[39m
+[31m        at Preview (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:150:17)[39m
+[31m        at renderWithHooks (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:14985:18)[39m
+[31m        at mountIndeterminateComponent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:17811:13)[39m
+[31m        at beginWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:19049:16)[39m
+[31m        at HTMLUnknownElement.callCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3945:14)[39m
+[31m        at HTMLUnknownElement.callTheUserObjectsOperation (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)[39m
+[31m        at innerInvokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)[39m
+[31m        at invokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)[39m
+[31m        at HTMLUnknownElementImpl._dispatch (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)[39m
+[31m        at HTMLUnknownElementImpl.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)[39m
+[31m        at HTMLUnknownElement.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)[39m
+[31m        at Object.invokeGuardedCallbackDev (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3994:16)[39m
+[31m        at invokeGuardedCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:4056:31)[39m
+[31m        at beginWork$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:23964:7)[39m
+[31m        at performUnitOfWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22779:12)[39m
+[31m        at workLoopSync (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22707:5)[39m
+[31m        at renderRootSync (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22670:7)[39m
+[31m        at performSyncWorkOnRoot (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22293:18)[39m
+[31m        at scheduleUpdateOnFiber (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:21881:7)[39m
+[31m        at updateContainer (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:25482:3)[39m
+[31m        at /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26021:7[39m
+[31m        at unbatchedUpdates (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22431:12)[39m
+[31m        at legacyRenderSubtreeIntoContainer (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26020:5)[39m
+[31m        at Object.render (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26103:10)[39m
+[31m        at /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/@testing-library/react/dist/pure.js:101:25[39m
+[31m        at batchedUpdates$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22380:12)[39m
+[31m        at act (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)[39m
+[31m        at render (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/@testing-library/react/dist/pure.js:97:26)[39m
+[31m        at Object.<anonymous> (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.test.js:5:3)[39m
+[31m        at Promise.then.completed (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/utils.js:276:28)[39m
+[31m        at new Promise (<anonymous>)[39m
+[31m        at callAsyncCircusFn (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/utils.js:216:10)[39m
+[31m        at _callCircusTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:212:40)[39m
+[31m        at processTicksAndRejections (internal/process/task_queues.js:95:5)[39m
+[31m        at _runTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:149:3)[39m
+[31m        at _runTestsForDescribeBlock (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:63:9)[39m
+[31m        at run (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:25:3)[39m
+[31m        at runAndTransformResultsToJestFormat (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)[39m
+[31m        at jestAdapter (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)[39m
+[31m        at runTestInternal (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/runTest.js:380:16)[39m
+[31m        at runTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/runTest.js:472:34)[39m
+[31m        at Object.worker (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/testWorker.js:133:12)[39m
+[2m[22m
+[2m      [2mat VirtualConsole.<anonymous> ([22m[2mnode_modules/jsdom/lib/jsdom/virtual-console.js[2m:29:45)[22m[2m[22m
+[2m      [2mat reportException ([22m[2mnode_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js[2m:70:28)[22m[2m[22m
+[2m      [2mat innerInvokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:341:9)[22m[2m[22m
+[2m      [2mat invokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:274:3)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl._dispatch ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:221:9)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:94:17)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    The above error occurred in the <Preview> component:[39m
+[31m    [39m
+[31m        at Preview (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:150:30)[39m
+[31m        at div[39m
+[31m        at div[39m
+[31m        at App (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:20:49)[39m
+[31m    [39m
+[31m    Consider adding an error boundary to your tree to customize error handling behavior.[39m
+[31m    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.[39m
+[2m[22m
+[2m      [2mat logCapturedError ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20085:23)[22m[2m[22m
+[2m      [2mat update.callback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20118:5)[22m[2m[22m
+[2m      [2mat callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:12318:12)[22m[2m[22m
+[2m      [2mat commitUpdateQueue ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:12339:9)[22m[2m[22m
+[2m      [2mat commitLifeCycles ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20736:11)[22m[2m[22m
+[2m      [2mat commitLayoutEffects ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:23426:7)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3945:14)[22m[2m[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[999D[K[1mTest Suites: [22m[1m[31m1 failed[39m[22m, 1 total
+[1mTests:       [22m[1m[31m1 failed[39m[22m, 1 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3.094 s[39m[22m
+[2mRan all test suites[22m[2m related to changed files[22m[2m.[22m
+
+[1mWatch Usage: [22m[2mPress [22mw[2m to show more.[22m[2J[3J[H[1m[2mDetermining test suites to run...[22m[22m[999D[K
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        0 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        0 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        1 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A  [31m✕[39m [2mrenders learn react link (106 ms)[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[1m[31m  [1m● [22m[1mrenders learn react link[39m[22m
+
+    TypeError: Cannot read property 'rest' of undefined
+    Please report this to https://github.com/markedjs/marked.
+[2m[22m
+[2m    [0m [90m 11 |[39m[0m[22m
+[2m    [0m [90m 12 |[39m   highlight[33m:[39m [36mfunction[39m (code[33m,[39m lang) {[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 13 |[39m 		 [33mPrism[39m[33m.[39mhighlight(code[33m,[39m [33mPrism[39m[33m.[39mlanguages[lang][33m,[39m lang)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m 		       [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 14 |[39m 	}[0m[22m
+[2m    [0m [90m 15 |[39m })[0m[22m
+[2m    [0m [90m 16 |[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.tokenize ([22m[2mnode_modules/prismjs/prism.js[2m:658:23)[22m[2m[22m
+[2m      [2mat Object.highlight ([22m[2mnode_modules/prismjs/prism.js[2m:628:19)[22m[2m[22m
+[2m      [2mat Object.highlight ([22m[2msrc/App.js[2m:13:10)[22m[2m[22m
+[2m      [2mat Renderer.code ([22m[2mnode_modules/marked/src/Renderer.js[2m:18:32)[22m[2m[22m
+[2m      [2mat Parser.parse ([22m[2mnode_modules/marked/src/Parser.js[2m:93:32)[22m[2m[22m
+[2m      [2mat Function.parse ([22m[2mnode_modules/marked/src/Parser.js[2m:27:19)[22m[2m[22m
+[2m      [2mat marked ([22m[2mnode_modules/marked/src/marked.js[2m:113:19)[22m[2m[22m
+[2m      [2mat Preview ([22m[2msrc/App.js[2m:150:17)[22m[2m[22m
+[2m      [2mat renderWithHooks ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:14985:18)[22m[2m[22m
+[2m      [2mat mountIndeterminateComponent ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:17811:13)[22m[2m[22m
+[2m      [2mat beginWork ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:19049:16)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3945:14)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callTheUserObjectsOperation ([22m[2mnode_modules/jsdom/lib/jsdom/living/generated/EventListener.js[2m:26:30)[22m[2m[22m
+[2m      [2mat innerInvokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:338:25)[22m[2m[22m
+[2m      [2mat invokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:274:3)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl._dispatch ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:221:9)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:94:17)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/generated/EventTarget.js[2m:231:34)[22m[2m[22m
+[2m      [2mat Object.invokeGuardedCallbackDev ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3994:16)[22m[2m[22m
+[2m      [2mat invokeGuardedCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:4056:31)[22m[2m[22m
+[2m      [2mat beginWork$1 ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:23964:7)[22m[2m[22m
+[2m      [2mat performUnitOfWork ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22779:12)[22m[2m[22m
+[2m      [2mat workLoopSync ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22707:5)[22m[2m[22m
+[2m      [2mat renderRootSync ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22670:7)[22m[2m[22m
+[2m      [2mat performSyncWorkOnRoot ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22293:18)[22m[2m[22m
+[2m      [2mat scheduleUpdateOnFiber ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:21881:7)[22m[2m[22m
+[2m      [2mat updateContainer ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:25482:3)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26021:7[22m[2m[22m
+[2m      [2mat unbatchedUpdates ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22431:12)[22m[2m[22m
+[2m      [2mat legacyRenderSubtreeIntoContainer ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26020:5)[22m[2m[22m
+[2m      [2mat Object.render ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26103:10)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:101:25[22m[2m[22m
+[2m      [2mat batchedUpdates$1 ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22380:12)[22m[2m[22m
+[2m      [2mat act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:1042:14)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:97:26)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36msrc/App.test.js[39m[0m[2m:5:3)[22m[2m[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A  [2m[31mconsole.error[39m[22m
+[31m    Error: Uncaught [TypeError: Cannot read property 'rest' of undefined[39m
+[31m    Please report this to https://github.com/markedjs/marked.][39m
+[31m        at reportException (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)[39m
+[31m        at innerInvokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:341:9)[39m
+[31m        at invokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)[39m
+[31m        at HTMLUnknownElementImpl._dispatch (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)[39m
+[31m        at HTMLUnknownElementImpl.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)[39m
+[31m        at HTMLUnknownElement.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)[39m
+[31m        at Object.invokeGuardedCallbackDev (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3994:16)[39m
+[31m        at invokeGuardedCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:4056:31)[39m
+[31m        at beginWork$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:23964:7)[39m
+[31m        at performUnitOfWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22779:12) TypeError: Cannot read property 'rest' of undefined[39m
+[31m    Please report this to https://github.com/markedjs/marked.[39m
+[31m        at Object.tokenize (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/prismjs/prism.js:658:23)[39m
+[31m        at Object.highlight (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/prismjs/prism.js:628:19)[39m
+[31m        at Object.highlight (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:13:10)[39m
+[31m        at Renderer.code (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Renderer.js:18:32)[39m
+[31m        at Parser.parse (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Parser.js:93:32)[39m
+[31m        at Function.parse (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Parser.js:27:19)[39m
+[31m        at marked (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/marked.js:113:19)[39m
+[31m        at Preview (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:150:17)[39m
+[31m        at renderWithHooks (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:14985:18)[39m
+[31m        at mountIndeterminateComponent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:17811:13)[39m
+[31m        at beginWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:19049:16)[39m
+[31m        at HTMLUnknownElement.callCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3945:14)[39m
+[31m        at HTMLUnknownElement.callTheUserObjectsOperation (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)[39m
+[31m        at innerInvokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)[39m
+[31m        at invokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)[39m
+[31m        at HTMLUnknownElementImpl._dispatch (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)[39m
+[31m        at HTMLUnknownElementImpl.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)[39m
+[31m        at HTMLUnknownElement.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)[39m
+[31m        at Object.invokeGuardedCallbackDev (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3994:16)[39m
+[31m        at invokeGuardedCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:4056:31)[39m
+[31m        at beginWork$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:23964:7)[39m
+[31m        at performUnitOfWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22779:12)[39m
+[31m        at workLoopSync (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22707:5)[39m
+[31m        at renderRootSync (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22670:7)[39m
+[31m        at performSyncWorkOnRoot (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22293:18)[39m
+[31m        at scheduleUpdateOnFiber (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:21881:7)[39m
+[31m        at updateContainer (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:25482:3)[39m
+[31m        at /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26021:7[39m
+[31m        at unbatchedUpdates (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22431:12)[39m
+[31m        at legacyRenderSubtreeIntoContainer (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26020:5)[39m
+[31m        at Object.render (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26103:10)[39m
+[31m        at /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/@testing-library/react/dist/pure.js:101:25[39m
+[31m        at batchedUpdates$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22380:12)[39m
+[31m        at act (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)[39m
+[31m        at render (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/@testing-library/react/dist/pure.js:97:26)[39m
+[31m        at Object.<anonymous> (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.test.js:5:3)[39m
+[31m        at Promise.then.completed (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/utils.js:276:28)[39m
+[31m        at new Promise (<anonymous>)[39m
+[31m        at callAsyncCircusFn (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/utils.js:216:10)[39m
+[31m        at _callCircusTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:212:40)[39m
+[31m        at processTicksAndRejections (internal/process/task_queues.js:95:5)[39m
+[31m        at _runTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:149:3)[39m
+[31m        at _runTestsForDescribeBlock (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:63:9)[39m
+[31m        at run (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:25:3)[39m
+[31m        at runAndTransformResultsToJestFormat (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)[39m
+[31m        at jestAdapter (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)[39m
+[31m        at runTestInternal (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/runTest.js:380:16)[39m
+[31m        at runTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/runTest.js:472:34)[39m
+[31m        at Object.worker (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/testWorker.js:133:12)[39m
+[2m[22m
+[2m      [2mat VirtualConsole.<anonymous> ([22m[2mnode_modules/jsdom/lib/jsdom/virtual-console.js[2m:29:45)[22m[2m[22m
+[2m      [2mat reportException ([22m[2mnode_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js[2m:70:28)[22m[2m[22m
+[2m      [2mat innerInvokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:341:9)[22m[2m[22m
+[2m      [2mat invokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:274:3)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl._dispatch ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:221:9)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:94:17)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    The above error occurred in the <Preview> component:[39m
+[31m    [39m
+[31m        at Preview (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:150:30)[39m
+[31m        at div[39m
+[31m        at div[39m
+[31m        at App (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:20:49)[39m
+[31m    [39m
+[31m    Consider adding an error boundary to your tree to customize error handling behavior.[39m
+[31m    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.[39m
+[2m[22m
+[2m      [2mat logCapturedError ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20085:23)[22m[2m[22m
+[2m      [2mat update.callback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20118:5)[22m[2m[22m
+[2m      [2mat callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:12318:12)[22m[2m[22m
+[2m      [2mat commitUpdateQueue ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:12339:9)[22m[2m[22m
+[2m      [2mat commitLifeCycles ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20736:11)[22m[2m[22m
+[2m      [2mat commitLayoutEffects ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:23426:7)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3945:14)[22m[2m[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[999D[K[1mTest Suites: [22m[1m[31m1 failed[39m[22m, 1 total
+[1mTests:       [22m[1m[31m1 failed[39m[22m, 1 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3.564 s[39m[22m
+[2mRan all test suites[22m[2m related to changed files[22m[2m.[22m
+
+[1mWatch Usage: [22m[2mPress [22mw[2m to show more.[22m[2J[3J[H[1m[2mDetermining test suites to run...[22m[22m[999D[K
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        0 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        0 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        1 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A  [31m✕[39m [2mrenders learn react link (106 ms)[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[1m[31m  [1m● [22m[1mrenders learn react link[39m[22m
+
+    TypeError: _prismjs.default.highlights is not a function
+    Please report this to https://github.com/markedjs/marked.
+[2m[22m
+[2m    [0m [90m 11 |[39m[0m[22m
+[2m    [0m [90m 12 |[39m   highlight[33m:[39m [36mfunction[39m (code[33m,[39m lang) {[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 13 |[39m 		[36mreturn[39m [33mPrism[39m[33m.[39mhighlights(code[33m,[39m [33mPrism[39m[33m.[39mlanguages[lang][33m,[39m lang)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m 		             [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 14 |[39m 	}[0m[22m
+[2m    [0m [90m 15 |[39m })[0m[22m
+[2m    [0m [90m 16 |[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.highlight ([22m[2msrc/App.js[2m:13:16)[22m[2m[22m
+[2m      [2mat Renderer.code ([22m[2mnode_modules/marked/src/Renderer.js[2m:18:32)[22m[2m[22m
+[2m      [2mat Parser.parse ([22m[2mnode_modules/marked/src/Parser.js[2m:93:32)[22m[2m[22m
+[2m      [2mat Function.parse ([22m[2mnode_modules/marked/src/Parser.js[2m:27:19)[22m[2m[22m
+[2m      [2mat marked ([22m[2mnode_modules/marked/src/marked.js[2m:113:19)[22m[2m[22m
+[2m      [2mat Preview ([22m[2msrc/App.js[2m:150:17)[22m[2m[22m
+[2m      [2mat renderWithHooks ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:14985:18)[22m[2m[22m
+[2m      [2mat mountIndeterminateComponent ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:17811:13)[22m[2m[22m
+[2m      [2mat beginWork ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:19049:16)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3945:14)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callTheUserObjectsOperation ([22m[2mnode_modules/jsdom/lib/jsdom/living/generated/EventListener.js[2m:26:30)[22m[2m[22m
+[2m      [2mat innerInvokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:338:25)[22m[2m[22m
+[2m      [2mat invokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:274:3)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl._dispatch ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:221:9)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:94:17)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/generated/EventTarget.js[2m:231:34)[22m[2m[22m
+[2m      [2mat Object.invokeGuardedCallbackDev ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3994:16)[22m[2m[22m
+[2m      [2mat invokeGuardedCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:4056:31)[22m[2m[22m
+[2m      [2mat beginWork$1 ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:23964:7)[22m[2m[22m
+[2m      [2mat performUnitOfWork ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22779:12)[22m[2m[22m
+[2m      [2mat workLoopSync ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22707:5)[22m[2m[22m
+[2m      [2mat renderRootSync ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22670:7)[22m[2m[22m
+[2m      [2mat performSyncWorkOnRoot ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22293:18)[22m[2m[22m
+[2m      [2mat scheduleUpdateOnFiber ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:21881:7)[22m[2m[22m
+[2m      [2mat updateContainer ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:25482:3)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26021:7[22m[2m[22m
+[2m      [2mat unbatchedUpdates ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22431:12)[22m[2m[22m
+[2m      [2mat legacyRenderSubtreeIntoContainer ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26020:5)[22m[2m[22m
+[2m      [2mat Object.render ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26103:10)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:101:25[22m[2m[22m
+[2m      [2mat batchedUpdates$1 ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22380:12)[22m[2m[22m
+[2m      [2mat act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:1042:14)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:97:26)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36msrc/App.test.js[39m[0m[2m:5:3)[22m[2m[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A  [2m[31mconsole.error[39m[22m
+[31m    Error: Uncaught [TypeError: _prismjs.default.highlights is not a function[39m
+[31m    Please report this to https://github.com/markedjs/marked.][39m
+[31m        at reportException (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)[39m
+[31m        at innerInvokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:341:9)[39m
+[31m        at invokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)[39m
+[31m        at HTMLUnknownElementImpl._dispatch (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)[39m
+[31m        at HTMLUnknownElementImpl.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)[39m
+[31m        at HTMLUnknownElement.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)[39m
+[31m        at Object.invokeGuardedCallbackDev (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3994:16)[39m
+[31m        at invokeGuardedCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:4056:31)[39m
+[31m        at beginWork$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:23964:7)[39m
+[31m        at performUnitOfWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22779:12) TypeError: _prismjs.default.highlights is not a function[39m
+[31m    Please report this to https://github.com/markedjs/marked.[39m
+[31m        at Object.highlight (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:13:16)[39m
+[31m        at Renderer.code (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Renderer.js:18:32)[39m
+[31m        at Parser.parse (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Parser.js:93:32)[39m
+[31m        at Function.parse (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Parser.js:27:19)[39m
+[31m        at marked (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/marked.js:113:19)[39m
+[31m        at Preview (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:150:17)[39m
+[31m        at renderWithHooks (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:14985:18)[39m
+[31m        at mountIndeterminateComponent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:17811:13)[39m
+[31m        at beginWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:19049:16)[39m
+[31m        at HTMLUnknownElement.callCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3945:14)[39m
+[31m        at HTMLUnknownElement.callTheUserObjectsOperation (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)[39m
+[31m        at innerInvokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)[39m
+[31m        at invokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)[39m
+[31m        at HTMLUnknownElementImpl._dispatch (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)[39m
+[31m        at HTMLUnknownElementImpl.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)[39m
+[31m        at HTMLUnknownElement.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)[39m
+[31m        at Object.invokeGuardedCallbackDev (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3994:16)[39m
+[31m        at invokeGuardedCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:4056:31)[39m
+[31m        at beginWork$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:23964:7)[39m
+[31m        at performUnitOfWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22779:12)[39m
+[31m        at workLoopSync (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22707:5)[39m
+[31m        at renderRootSync (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22670:7)[39m
+[31m        at performSyncWorkOnRoot (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22293:18)[39m
+[31m        at scheduleUpdateOnFiber (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:21881:7)[39m
+[31m        at updateContainer (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:25482:3)[39m
+[31m        at /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26021:7[39m
+[31m        at unbatchedUpdates (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22431:12)[39m
+[31m        at legacyRenderSubtreeIntoContainer (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26020:5)[39m
+[31m        at Object.render (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26103:10)[39m
+[31m        at /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/@testing-library/react/dist/pure.js:101:25[39m
+[31m        at batchedUpdates$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22380:12)[39m
+[31m        at act (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)[39m
+[31m        at render (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/@testing-library/react/dist/pure.js:97:26)[39m
+[31m        at Object.<anonymous> (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.test.js:5:3)[39m
+[31m        at Promise.then.completed (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/utils.js:276:28)[39m
+[31m        at new Promise (<anonymous>)[39m
+[31m        at callAsyncCircusFn (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/utils.js:216:10)[39m
+[31m        at _callCircusTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:212:40)[39m
+[31m        at processTicksAndRejections (internal/process/task_queues.js:95:5)[39m
+[31m        at _runTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:149:3)[39m
+[31m        at _runTestsForDescribeBlock (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:63:9)[39m
+[31m        at run (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:25:3)[39m
+[31m        at runAndTransformResultsToJestFormat (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)[39m
+[31m        at jestAdapter (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)[39m
+[31m        at runTestInternal (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/runTest.js:380:16)[39m
+[31m        at runTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/runTest.js:472:34)[39m
+[31m        at Object.worker (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/testWorker.js:133:12)[39m
+[2m[22m
+[2m      [2mat VirtualConsole.<anonymous> ([22m[2mnode_modules/jsdom/lib/jsdom/virtual-console.js[2m:29:45)[22m[2m[22m
+[2m      [2mat reportException ([22m[2mnode_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js[2m:70:28)[22m[2m[22m
+[2m      [2mat innerInvokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:341:9)[22m[2m[22m
+[2m      [2mat invokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:274:3)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl._dispatch ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:221:9)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:94:17)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    The above error occurred in the <Preview> component:[39m
+[31m    [39m
+[31m        at Preview (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:150:30)[39m
+[31m        at div[39m
+[31m        at div[39m
+[31m        at App (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:20:49)[39m
+[31m    [39m
+[31m    Consider adding an error boundary to your tree to customize error handling behavior.[39m
+[31m    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.[39m
+[2m[22m
+[2m      [2mat logCapturedError ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20085:23)[22m[2m[22m
+[2m      [2mat update.callback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20118:5)[22m[2m[22m
+[2m      [2mat callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:12318:12)[22m[2m[22m
+[2m      [2mat commitUpdateQueue ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:12339:9)[22m[2m[22m
+[2m      [2mat commitLifeCycles ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20736:11)[22m[2m[22m
+[2m      [2mat commitLayoutEffects ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:23426:7)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3945:14)[22m[2m[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[999D[K[1mTest Suites: [22m[1m[31m1 failed[39m[22m, 1 total
+[1mTests:       [22m[1m[31m1 failed[39m[22m, 1 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3.55 s[39m[22m
+[2mRan all test suites[22m[2m related to changed files[22m[2m.[22m
+
+[1mWatch Usage: [22m[2mPress [22mw[2m to show more.[22m[2J[3J[H[1m[2mDetermining test suites to run...[22m[22m[999D[K
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        0 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        0 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        1 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A  [31m✕[39m [2mrenders learn react link (123 ms)[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[1m[31m  [1m● [22m[1mrenders learn react link[39m[22m
+
+    TypeError: Cannot read property 'rest' of undefined
+    Please report this to https://github.com/markedjs/marked.
+[2m[22m
+[2m    [0m [90m 11 |[39m[0m[22m
+[2m    [0m [90m 12 |[39m   highlight[33m:[39m [36mfunction[39m (code[33m,[39m lang) {[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 13 |[39m 		[36mreturn[39m [33mPrism[39m[33m.[39mhighlight(code[33m,[39m [33mPrism[39m[33m.[39mlanguages[lang][33m,[39m lang)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m 		             [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 14 |[39m 	}[0m[22m
+[2m    [0m [90m 15 |[39m })[0m[22m
+[2m    [0m [90m 16 |[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.tokenize ([22m[2mnode_modules/prismjs/prism.js[2m:658:23)[22m[2m[22m
+[2m      [2mat Object.highlight ([22m[2mnode_modules/prismjs/prism.js[2m:628:19)[22m[2m[22m
+[2m      [2mat Object.highlight ([22m[2msrc/App.js[2m:13:16)[22m[2m[22m
+[2m      [2mat Renderer.code ([22m[2mnode_modules/marked/src/Renderer.js[2m:18:32)[22m[2m[22m
+[2m      [2mat Parser.parse ([22m[2mnode_modules/marked/src/Parser.js[2m:93:32)[22m[2m[22m
+[2m      [2mat Function.parse ([22m[2mnode_modules/marked/src/Parser.js[2m:27:19)[22m[2m[22m
+[2m      [2mat marked ([22m[2mnode_modules/marked/src/marked.js[2m:113:19)[22m[2m[22m
+[2m      [2mat Preview ([22m[2msrc/App.js[2m:150:17)[22m[2m[22m
+[2m      [2mat renderWithHooks ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:14985:18)[22m[2m[22m
+[2m      [2mat mountIndeterminateComponent ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:17811:13)[22m[2m[22m
+[2m      [2mat beginWork ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:19049:16)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3945:14)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callTheUserObjectsOperation ([22m[2mnode_modules/jsdom/lib/jsdom/living/generated/EventListener.js[2m:26:30)[22m[2m[22m
+[2m      [2mat innerInvokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:338:25)[22m[2m[22m
+[2m      [2mat invokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:274:3)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl._dispatch ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:221:9)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:94:17)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/generated/EventTarget.js[2m:231:34)[22m[2m[22m
+[2m      [2mat Object.invokeGuardedCallbackDev ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3994:16)[22m[2m[22m
+[2m      [2mat invokeGuardedCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:4056:31)[22m[2m[22m
+[2m      [2mat beginWork$1 ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:23964:7)[22m[2m[22m
+[2m      [2mat performUnitOfWork ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22779:12)[22m[2m[22m
+[2m      [2mat workLoopSync ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22707:5)[22m[2m[22m
+[2m      [2mat renderRootSync ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22670:7)[22m[2m[22m
+[2m      [2mat performSyncWorkOnRoot ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22293:18)[22m[2m[22m
+[2m      [2mat scheduleUpdateOnFiber ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:21881:7)[22m[2m[22m
+[2m      [2mat updateContainer ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:25482:3)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26021:7[22m[2m[22m
+[2m      [2mat unbatchedUpdates ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22431:12)[22m[2m[22m
+[2m      [2mat legacyRenderSubtreeIntoContainer ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26020:5)[22m[2m[22m
+[2m      [2mat Object.render ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26103:10)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:101:25[22m[2m[22m
+[2m      [2mat batchedUpdates$1 ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22380:12)[22m[2m[22m
+[2m      [2mat act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:1042:14)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:97:26)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36msrc/App.test.js[39m[0m[2m:5:3)[22m[2m[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A  [2m[31mconsole.error[39m[22m
+[31m    Error: Uncaught [TypeError: Cannot read property 'rest' of undefined[39m
+[31m    Please report this to https://github.com/markedjs/marked.][39m
+[31m        at reportException (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)[39m
+[31m        at innerInvokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:341:9)[39m
+[31m        at invokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)[39m
+[31m        at HTMLUnknownElementImpl._dispatch (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)[39m
+[31m        at HTMLUnknownElementImpl.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)[39m
+[31m        at HTMLUnknownElement.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)[39m
+[31m        at Object.invokeGuardedCallbackDev (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3994:16)[39m
+[31m        at invokeGuardedCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:4056:31)[39m
+[31m        at beginWork$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:23964:7)[39m
+[31m        at performUnitOfWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22779:12) TypeError: Cannot read property 'rest' of undefined[39m
+[31m    Please report this to https://github.com/markedjs/marked.[39m
+[31m        at Object.tokenize (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/prismjs/prism.js:658:23)[39m
+[31m        at Object.highlight (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/prismjs/prism.js:628:19)[39m
+[31m        at Object.highlight (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:13:16)[39m
+[31m        at Renderer.code (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Renderer.js:18:32)[39m
+[31m        at Parser.parse (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Parser.js:93:32)[39m
+[31m        at Function.parse (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Parser.js:27:19)[39m
+[31m        at marked (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/marked.js:113:19)[39m
+[31m        at Preview (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:150:17)[39m
+[31m        at renderWithHooks (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:14985:18)[39m
+[31m        at mountIndeterminateComponent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:17811:13)[39m
+[31m        at beginWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:19049:16)[39m
+[31m        at HTMLUnknownElement.callCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3945:14)[39m
+[31m        at HTMLUnknownElement.callTheUserObjectsOperation (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)[39m
+[31m        at innerInvokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)[39m
+[31m        at invokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)[39m
+[31m        at HTMLUnknownElementImpl._dispatch (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)[39m
+[31m        at HTMLUnknownElementImpl.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)[39m
+[31m        at HTMLUnknownElement.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)[39m
+[31m        at Object.invokeGuardedCallbackDev (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3994:16)[39m
+[31m        at invokeGuardedCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:4056:31)[39m
+[31m        at beginWork$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:23964:7)[39m
+[31m        at performUnitOfWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22779:12)[39m
+[31m        at workLoopSync (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22707:5)[39m
+[31m        at renderRootSync (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22670:7)[39m
+[31m        at performSyncWorkOnRoot (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22293:18)[39m
+[31m        at scheduleUpdateOnFiber (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:21881:7)[39m
+[31m        at updateContainer (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:25482:3)[39m
+[31m        at /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26021:7[39m
+[31m        at unbatchedUpdates (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22431:12)[39m
+[31m        at legacyRenderSubtreeIntoContainer (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26020:5)[39m
+[31m        at Object.render (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26103:10)[39m
+[31m        at /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/@testing-library/react/dist/pure.js:101:25[39m
+[31m        at batchedUpdates$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22380:12)[39m
+[31m        at act (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)[39m
+[31m        at render (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/@testing-library/react/dist/pure.js:97:26)[39m
+[31m        at Object.<anonymous> (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.test.js:5:3)[39m
+[31m        at Promise.then.completed (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/utils.js:276:28)[39m
+[31m        at new Promise (<anonymous>)[39m
+[31m        at callAsyncCircusFn (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/utils.js:216:10)[39m
+[31m        at _callCircusTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:212:40)[39m
+[31m        at processTicksAndRejections (internal/process/task_queues.js:95:5)[39m
+[31m        at _runTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:149:3)[39m
+[31m        at _runTestsForDescribeBlock (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:63:9)[39m
+[31m        at run (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:25:3)[39m
+[31m        at runAndTransformResultsToJestFormat (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)[39m
+[31m        at jestAdapter (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)[39m
+[31m        at runTestInternal (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/runTest.js:380:16)[39m
+[31m        at runTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/runTest.js:472:34)[39m
+[31m        at Object.worker (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/testWorker.js:133:12)[39m
+[2m[22m
+[2m      [2mat VirtualConsole.<anonymous> ([22m[2mnode_modules/jsdom/lib/jsdom/virtual-console.js[2m:29:45)[22m[2m[22m
+[2m      [2mat reportException ([22m[2mnode_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js[2m:70:28)[22m[2m[22m
+[2m      [2mat innerInvokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:341:9)[22m[2m[22m
+[2m      [2mat invokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:274:3)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl._dispatch ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:221:9)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:94:17)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    The above error occurred in the <Preview> component:[39m
+[31m    [39m
+[31m        at Preview (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:150:30)[39m
+[31m        at div[39m
+[31m        at div[39m
+[31m        at App (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:20:49)[39m
+[31m    [39m
+[31m    Consider adding an error boundary to your tree to customize error handling behavior.[39m
+[31m    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.[39m
+[2m[22m
+[2m      [2mat logCapturedError ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20085:23)[22m[2m[22m
+[2m      [2mat update.callback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20118:5)[22m[2m[22m
+[2m      [2mat callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:12318:12)[22m[2m[22m
+[2m      [2mat commitUpdateQueue ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:12339:9)[22m[2m[22m
+[2m      [2mat commitLifeCycles ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20736:11)[22m[2m[22m
+[2m      [2mat commitLayoutEffects ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:23426:7)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3945:14)[22m[2m[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[999D[K[1mTest Suites: [22m[1m[31m1 failed[39m[22m, 1 total
+[1mTests:       [22m[1m[31m1 failed[39m[22m, 1 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3.023 s[39m[22m
+[2mRan all test suites[22m[2m related to changed files[22m[2m.[22m
+
+[1mWatch Usage: [22m[2mPress [22mw[2m to show more.[22m[2J[3J[H[1m[2mDetermining test suites to run...[22m[22m[999D[K
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        0 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        0 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        1 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A  [31m✕[39m [2mrenders learn react link (106 ms)[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[1m[31m  [1m● [22m[1mrenders learn react link[39m[22m
+
+    TypeError: Cannot read property 'rest' of undefined
+    Please report this to https://github.com/markedjs/marked.
+[2m[22m
+[2m    [0m [90m 11 |[39m[0m[22m
+[2m    [0m [90m 12 |[39m   highlight[33m:[39m [36mfunction[39m (code[33m,[39m lang) {[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 13 |[39m     [36mreturn[39m prismjs[33m.[39mhighlight(code[33m,[39m prismjs[33m.[39mlanguages[lang][33m,[39m lang)[33m;[39m[0m[22m
+[2m    [0m [90m    |[39m                    [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 14 |[39m   }[0m[22m
+[2m    [0m [90m 15 |[39m })[0m[22m
+[2m    [0m [90m 16 |[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.tokenize ([22m[2mnode_modules/prismjs/prism.js[2m:658:23)[22m[2m[22m
+[2m      [2mat Object.highlight ([22m[2mnode_modules/prismjs/prism.js[2m:628:19)[22m[2m[22m
+[2m      [2mat Object.highlight ([22m[2msrc/App.js[2m:13:20)[22m[2m[22m
+[2m      [2mat Renderer.code ([22m[2mnode_modules/marked/src/Renderer.js[2m:18:32)[22m[2m[22m
+[2m      [2mat Parser.parse ([22m[2mnode_modules/marked/src/Parser.js[2m:93:32)[22m[2m[22m
+[2m      [2mat Function.parse ([22m[2mnode_modules/marked/src/Parser.js[2m:27:19)[22m[2m[22m
+[2m      [2mat marked ([22m[2mnode_modules/marked/src/marked.js[2m:113:19)[22m[2m[22m
+[2m      [2mat Preview ([22m[2msrc/App.js[2m:150:17)[22m[2m[22m
+[2m      [2mat renderWithHooks ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:14985:18)[22m[2m[22m
+[2m      [2mat mountIndeterminateComponent ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:17811:13)[22m[2m[22m
+[2m      [2mat beginWork ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:19049:16)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3945:14)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callTheUserObjectsOperation ([22m[2mnode_modules/jsdom/lib/jsdom/living/generated/EventListener.js[2m:26:30)[22m[2m[22m
+[2m      [2mat innerInvokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:338:25)[22m[2m[22m
+[2m      [2mat invokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:274:3)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl._dispatch ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:221:9)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:94:17)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/generated/EventTarget.js[2m:231:34)[22m[2m[22m
+[2m      [2mat Object.invokeGuardedCallbackDev ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3994:16)[22m[2m[22m
+[2m      [2mat invokeGuardedCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:4056:31)[22m[2m[22m
+[2m      [2mat beginWork$1 ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:23964:7)[22m[2m[22m
+[2m      [2mat performUnitOfWork ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22779:12)[22m[2m[22m
+[2m      [2mat workLoopSync ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22707:5)[22m[2m[22m
+[2m      [2mat renderRootSync ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22670:7)[22m[2m[22m
+[2m      [2mat performSyncWorkOnRoot ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22293:18)[22m[2m[22m
+[2m      [2mat scheduleUpdateOnFiber ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:21881:7)[22m[2m[22m
+[2m      [2mat updateContainer ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:25482:3)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26021:7[22m[2m[22m
+[2m      [2mat unbatchedUpdates ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22431:12)[22m[2m[22m
+[2m      [2mat legacyRenderSubtreeIntoContainer ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26020:5)[22m[2m[22m
+[2m      [2mat Object.render ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:26103:10)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:101:25[22m[2m[22m
+[2m      [2mat batchedUpdates$1 ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:22380:12)[22m[2m[22m
+[2m      [2mat act ([22m[2mnode_modules/react-dom/cjs/react-dom-test-utils.development.js[2m:1042:14)[22m[2m[22m
+[2m      [2mat render ([22m[2mnode_modules/@testing-library/react/dist/pure.js[2m:97:26)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36msrc/App.test.js[39m[0m[2m:5:3)[22m[2m[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A  [2m[31mconsole.error[39m[22m
+[31m    Error: Uncaught [TypeError: Cannot read property 'rest' of undefined[39m
+[31m    Please report this to https://github.com/markedjs/marked.][39m
+[31m        at reportException (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)[39m
+[31m        at innerInvokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:341:9)[39m
+[31m        at invokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)[39m
+[31m        at HTMLUnknownElementImpl._dispatch (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)[39m
+[31m        at HTMLUnknownElementImpl.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)[39m
+[31m        at HTMLUnknownElement.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)[39m
+[31m        at Object.invokeGuardedCallbackDev (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3994:16)[39m
+[31m        at invokeGuardedCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:4056:31)[39m
+[31m        at beginWork$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:23964:7)[39m
+[31m        at performUnitOfWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22779:12) TypeError: Cannot read property 'rest' of undefined[39m
+[31m    Please report this to https://github.com/markedjs/marked.[39m
+[31m        at Object.tokenize (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/prismjs/prism.js:658:23)[39m
+[31m        at Object.highlight (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/prismjs/prism.js:628:19)[39m
+[31m        at Object.highlight (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:13:20)[39m
+[31m        at Renderer.code (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Renderer.js:18:32)[39m
+[31m        at Parser.parse (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Parser.js:93:32)[39m
+[31m        at Function.parse (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/Parser.js:27:19)[39m
+[31m        at marked (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/marked/src/marked.js:113:19)[39m
+[31m        at Preview (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:150:17)[39m
+[31m        at renderWithHooks (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:14985:18)[39m
+[31m        at mountIndeterminateComponent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:17811:13)[39m
+[31m        at beginWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:19049:16)[39m
+[31m        at HTMLUnknownElement.callCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3945:14)[39m
+[31m        at HTMLUnknownElement.callTheUserObjectsOperation (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)[39m
+[31m        at innerInvokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)[39m
+[31m        at invokeEventListeners (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)[39m
+[31m        at HTMLUnknownElementImpl._dispatch (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)[39m
+[31m        at HTMLUnknownElementImpl.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)[39m
+[31m        at HTMLUnknownElement.dispatchEvent (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)[39m
+[31m        at Object.invokeGuardedCallbackDev (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:3994:16)[39m
+[31m        at invokeGuardedCallback (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:4056:31)[39m
+[31m        at beginWork$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:23964:7)[39m
+[31m        at performUnitOfWork (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22779:12)[39m
+[31m        at workLoopSync (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22707:5)[39m
+[31m        at renderRootSync (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22670:7)[39m
+[31m        at performSyncWorkOnRoot (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22293:18)[39m
+[31m        at scheduleUpdateOnFiber (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:21881:7)[39m
+[31m        at updateContainer (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:25482:3)[39m
+[31m        at /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26021:7[39m
+[31m        at unbatchedUpdates (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22431:12)[39m
+[31m        at legacyRenderSubtreeIntoContainer (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26020:5)[39m
+[31m        at Object.render (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:26103:10)[39m
+[31m        at /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/@testing-library/react/dist/pure.js:101:25[39m
+[31m        at batchedUpdates$1 (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom.development.js:22380:12)[39m
+[31m        at act (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)[39m
+[31m        at render (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/@testing-library/react/dist/pure.js:97:26)[39m
+[31m        at Object.<anonymous> (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.test.js:5:3)[39m
+[31m        at Promise.then.completed (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/utils.js:276:28)[39m
+[31m        at new Promise (<anonymous>)[39m
+[31m        at callAsyncCircusFn (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/utils.js:216:10)[39m
+[31m        at _callCircusTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:212:40)[39m
+[31m        at processTicksAndRejections (internal/process/task_queues.js:95:5)[39m
+[31m        at _runTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:149:3)[39m
+[31m        at _runTestsForDescribeBlock (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:63:9)[39m
+[31m        at run (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/run.js:25:3)[39m
+[31m        at runAndTransformResultsToJestFormat (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)[39m
+[31m        at jestAdapter (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)[39m
+[31m        at runTestInternal (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/runTest.js:380:16)[39m
+[31m        at runTest (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/runTest.js:472:34)[39m
+[31m        at Object.worker (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/jest-runner/build/testWorker.js:133:12)[39m
+[2m[22m
+[2m      [2mat VirtualConsole.<anonymous> ([22m[2mnode_modules/jsdom/lib/jsdom/virtual-console.js[2m:29:45)[22m[2m[22m
+[2m      [2mat reportException ([22m[2mnode_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js[2m:70:28)[22m[2m[22m
+[2m      [2mat innerInvokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:341:9)[22m[2m[22m
+[2m      [2mat invokeEventListeners ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:274:3)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl._dispatch ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:221:9)[22m[2m[22m
+[2m      [2mat HTMLUnknownElementImpl.dispatchEvent ([22m[2mnode_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js[2m:94:17)[22m[2m[22m
+
+  [2m[31mconsole.error[39m[22m
+[31m    The above error occurred in the <Preview> component:[39m
+[31m    [39m
+[31m        at Preview (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:150:30)[39m
+[31m        at div[39m
+[31m        at div[39m
+[31m        at App (/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js:20:49)[39m
+[31m    [39m
+[31m    Consider adding an error boundary to your tree to customize error handling behavior.[39m
+[31m    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.[39m
+[2m[22m
+[2m      [2mat logCapturedError ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20085:23)[22m[2m[22m
+[2m      [2mat update.callback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20118:5)[22m[2m[22m
+[2m      [2mat callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:12318:12)[22m[2m[22m
+[2m      [2mat commitUpdateQueue ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:12339:9)[22m[2m[22m
+[2m      [2mat commitLifeCycles ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:20736:11)[22m[2m[22m
+[2m      [2mat commitLayoutEffects ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:23426:7)[22m[2m[22m
+[2m      [2mat HTMLUnknownElement.callCallback ([22m[2mnode_modules/react-dom/cjs/react-dom.development.js[2m:3945:14)[22m[2m[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[999D[K[1mTest Suites: [22m[1m[31m1 failed[39m[22m, 1 total
+[1mTests:       [22m[1m[31m1 failed[39m[22m, 1 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3.572 s[39m[22m
+[2mRan all test suites[22m[2m related to changed files[22m[2m.[22m
+
+[1mWatch Usage: [22m[2mPress [22mw[2m to show more.[22m[2J[3J[H[1m[2mDetermining test suites to run...[22m[22m[999D[K
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        0 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        0 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        1 s, estimated 2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A  [31m✕[39m [2mrenders learn react link (65 ms)[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[1m[31m  [1m● [22m[1mrenders learn react link[39m[22m
+
+    TestingLibraryElementError: Unable to find an element with the text: /learn react/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"editorWrap"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"toolbar"[39m
+            [36m>[39m
+              [36m<i[39m
+                [33mclass[39m=[32m"fa fa-free-code-camp"[39m
+                [33mtitle[39m=[32m"no-stack-dub-sack"[39m
+              [36m/>[39m
+              [0mEditor[0m
+              [36m<i[39m
+                [33mclass[39m=[32m"fa fa-arrows-alt"[39m
+              [36m>[39m
+                [0mFS[0m
+              [36m</i>[39m
+            [36m</div>[39m
+            [36m<textarea[39m
+              [33mid[39m=[32m"editor"[39m
+              [33mtype[39m=[32m"text"[39m
+            [36m>[39m
+              [0m# Welcome to my React Markdown Previewer!
+
+      ## This is a sub-heading...
+      ### And here's some other cool stuff:
+      
+      Heres some code, `&lt;div&gt;&lt;/div&gt;`, between 2 backticks.
+      
+      ```
+      // this is multi-line code:
+      
+      function anotherExample(firstLine, lastLine) {
+        if (firstLine == '```' && lastLine == '```') {
+          return multiLineCode;
+        }
+      }
+      ```
+      
+      You can also make text **bold**... whoa!
+      Or _italic_.
+      Or... wait for it... **_both!_**
+      And feel free to go crazy ~~crossing stuff out~~.
+      
+      There's also [links](https://www.freecodecamp.org), and
+      &gt; Block Quotes!
+      
+      And if you want to get really crazy, even tables:
+      
+      Wild Header | Crazy Header | Another Header?
+      ------------ | ------------- | -------------
+      Your content can | be here, and it | can be here....
+      And here. | Okay. | I think we get it.
+      
+      - And of course there are lists.
+        - Some are bulleted.
+           - With different indentation levels.
+              - That look like this.
+      
+      
+      1. And there are numbered lists too.
+      1. Use just 1s if you want!
+      1. And last but not least, let's not forget embedded images:
+      
+      ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)[0m
+            [36m</textarea>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"converter"[39m
+          [36m/>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"previewWrap"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"toolbar"[39m
+            [36m>[39m
+              [36m<i[39m
+                [33mclass[39m=[32m"fa fa-free-code-camp"[39m
+                [33mtitle[39m=[32m"no-stack-dub-sack"[39m
+              [36m/>[39m
+              [0mPreviewer[0m
+              [36m<i[39m
+                [33mclass[39m=[32m"fa fa-arrows-alt"[39m
+              [36m>[39m
+                [0mFS[0m
+              [36m</i>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mid[39m=[32m"preview"[39m
+            [36m>[39m
+              [36m<h1[39m
+                [33mid[39m=[32m"welcome-to-my-react-markdown-previewer"[39m
+              [36m>[39m
+                [0mWelcome to my React Markdown Previewer![0m
+              [36m</h1>[39m
+              [0m
+    [0m
+              [36m<h2[39m
+                [33mid[39m=[32m"this-is-a-sub-heading"[39m
+              [36m>[39m
+                [0mThis is a sub-heading...[0m
+              [36m</h2>[39m
+              [0m
+    [0m
+              [36m<h3[39m
+                [33mid[39m=[32m"and-heres-some-other-cool-stuff"[39m
+              [36m>[39m
+                [0mAnd here's some other cool stuff:[0m
+              [36m</h3>[39m
+              [0m
+    [0m
+              [36m<p>[39m
+                [0m  Heres some code, [0m
+                [36m<code>[39m
+                  [0m&lt;div&gt;&lt;/div&gt;[0m
+                [36m</code>[39m
+                [0m, between 2 backticks.[0m
+              [36m</p>[39m
+              [0m
+    [0m
+              [36m<pre>[39m
+                [36m<code>[39m
+                  [0m// this is multi-line code:
+
+    function anotherExample(firstLine, lastLine) {
+      if (firstLine == '```' && lastLine == '```') {
+        return multiLineCode;
+      }
+    }
+    [0m
+                [36m</code>[39m
+              [36m</pre>[39m
+              [0m
+    [0m
+              [36m<p>[39m
+                [0m  You can also make text [0m
+                [36m<strong>[39m
+                  [0mbold[0m
+                [36m</strong>[39m
+                [0m... whoa![0m
+                [36m<br />[39m
+                [0m  Or [0m
+                [36m<em>[39m
+                  [0mitalic[0m
+                [36m</em>[39m
+                [0m.[0m
+                [36m<br />[39m
+                [0m  Or... wait for it... [0m
+                [36m<strong>[39m
+                  [36m<em>[39m
+                    [0mboth![0m
+                  [36m</em>[39m
+                [36m</strong>[39m
+                [36m<br />[39m
+                [0m  And feel free to go crazy [0m
+                [36m<del>[39m
+                  [0mcrossing stuff out[0m
+                [36m</del>[39m
+                [0m.[0m
+              [36m</p>[39m
+              [0m
+    [0m
+              [36m<p>[39m
+                [0m  There's also [0m
+                [36m<a[39m
+                  [33mhref[39m=[32m"https://www.freecodecamp.org"[39m
+                [36m>[39m
+                  [0mlinks[0m
+                [36m</a>[39m
+                [0m, and[0m
+              [36m</p>[39m
+              [0m
+    [0m
+              [36m<blockquote>[39m
+                [0m
+    [0m
+                [36m<p>[39m
+                  [0mBlock Quotes![0m
+                [36m</p>[39m
+                [0m
+    [0m
+              [36m</blockquote>[39m
+              [0m
+    [0m
+              [36m<p>[39m
+                [0m  And if you want to get really crazy, even tables:[0m
+              [36m</p>[39m
+              [0m
+    [0m
+              [36m<table>[39m
+                [0m
+    [0m
+                [36m<thead>[39m
+                  [0m
+    [0m
+                  [36m<tr>[39m
+                    [0m
+    [0m
+                    [36m<th>[39m
+                      [0mWild Header[0m
+                    [36m</th>[39m
+                    [0m
+    [0m
+                    [36m<th>[39m
+                      [0mCrazy Header[0m
+                    [36m</th>[39m
+                    [0m
+    [0m
+                    [36m<th>[39m
+                      [0mAnother Header?[0m
+                    [36m</th>[39m
+                    [0m
+    [0m
+                  [36m</tr>[39m
+                  [0m
+    [0m
+                [36m</thead>[39m
+                [0m
+    [0m
+                [36m<tbody>[39m
+                  [36m<tr>[39m
+                    [0m
+    [0m
+                    [36m<td>[39m
+                      [0mYour content can[0m
+                    [36m</td>[39m
+                    [0m
+    [0m
+                    [36m<td>[39m
+                      [0mbe here, and it[0m
+                    [36m</td>[39m
+                    [0m
+    [0m
+                    [36m<td>[39m
+                      [0mcan be here....[0m
+                    [36m</td>[39m
+                    [0m
+    [0m
+                  [36m</tr>[39m
+                  [0m
+    [0m
+                  [36m<tr>[39m
+                    [0m
+    [0m
+                    [36m<td>[39m
+                      [0mAnd here.[0m
+                    [36m</td>[39m
+                    [0m
+    [0m
+                    [36m<td>[39m
+                      [0mOkay.[0m
+                    [36m</td>[39m
+                    [0m
+    [0m
+                    [36m<td>[39m
+                      [0mI think we get it.[0m
+                    [36m</td>[39m
+                    [0m
+    [0m
+                  [36m</tr>[39m
+                  [0m
+    [0m
+                [36m</tbody>[39m
+              [36m</table>[39m
+              [0m
+    [0m
+              [36m<ul>[39m
+                [0m
+    [0m
+                [36m<li>[39m
+                  [0mAnd of course there are lists.[0m
+                  [36m<ul>[39m
+                    [0m
+    [0m
+                    [36m<li>[39m
+                      [0mSome are bulleted.[0m
+                      [36m<ul>[39m
+                        [0m
+    [0m
+                        [36m<li>[39m
+                          [0mWith different indentation levels.[0m
+                          [36m<ul>[39m
+                            [0m
+    [0m
+                            [36m<li>[39m
+                              [0mThat look like this.[0m
+                            [36m</li>[39m
+                            [0m
+    [0m
+                          [36m</ul>[39m
+                          [0m
+    [0m
+                        [36m</li>[39m
+                        [0m
+    [0m
+                      [36m</ul>[39m
+                      [0m
+    [0m
+                    [36m</li>[39m
+                    [0m
+    [0m
+                  [36m</ul>[39m
+                  [0m
+    [0m
+                [36m</li>[39m
+                [0m
+    [0m
+              [36m</ul>[39m
+              [0m
+    [0m
+              [36m<ol>[39m
+                [0m
+    [0m
+                [36m<li>[39m
+                  [0mAnd there are numbered lists too.[0m
+                [36m</li>[39m
+                [0m
+    [0m
+                [36m<li>[39m
+                  [0mUse just 1s if you want![0m
+                [36m</li>[39m
+                [0m
+    [0m
+                [36m<li>[39m
+                  [0mAnd last but not least, let's not forget embedded images:[0m
+                [36m</li>[39m
+                [0m
+    [0m
+              [36m</ol>[39m
+              [0m
+    [0m
+              [36m<p>[39m
+                [0m  [0m
+                [36m<img[39m
+                  [33malt[39m=[32m"freeCodeCamp Logo"[39m
+                  [33msrc[39m=[32m"https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg"[39m
+                [36m/>[39m
+              [36m</p>[39m
+              [0m
+    [0m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+[2m[22m
+[2m    [0m [90m 4 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {[0m[22m
+[2m    [0m [90m 5 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m[0m[22m
+[2m    [0m[31m[1m>[22m[2m[39m[90m 6 |[39m   [36mconst[39m linkElement [33m=[39m screen[33m.[39mgetByText([35m/learn react/i[39m)[33m;[39m[0m[22m
+[2m    [0m [90m   |[39m                              [31m[1m^[22m[2m[39m[0m[22m
+[2m    [0m [90m 7 |[39m   expect(linkElement)[33m.[39mtoBeInTheDocument()[33m;[39m[0m[22m
+[2m    [0m [90m 8 |[39m })[33m;[39m[0m[22m
+[2m    [0m [90m 9 |[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.getElementError ([22m[2mnode_modules/@testing-library/dom/dist/config.js[2m:37:19)[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/dom/dist/query-helpers.js[2m:90:38[22m[2m[22m
+[2m      [2mat [22m[2mnode_modules/@testing-library/dom/dist/query-helpers.js[2m:62:17[22m[2m[22m
+[2m      [2mat getByText ([22m[2mnode_modules/@testing-library/dom/dist/query-helpers.js[2m:111:19)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36msrc/App.test.js[39m[0m[2m:6:30)[22m[2m[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mApp.test.js[22m
+
+[1mTest Suites: [22m0 of 1 total
+[1mTests:       [22m0 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3 s[39m[22m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[999D[K[1mTest Suites: [22m[1m[31m1 failed[39m[22m, 1 total
+[1mTests:       [22m[1m[31m1 failed[39m[22m, 1 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m3.601 s[39m[22m
+[2mRan all test suites[22m[2m related to changed files[22m[2m.[22m
+
+[1mWatch Usage: [22m[2mPress [22mw[2m to show more.[22m
+]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ npm start
+
+> markdown-previewer@0.1.0 start /mnt/c/Users/renau/Desktop/Projets/markdown-previewer
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.1.70/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+[2J[3J[H[36mStarting the development server...[39m
+[36m[39m
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used               [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used              [33m[4mno-unused-vars[24m[39m
+  [1mLine 22:7:[22m  'renderer' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+./src/App.js
+SyntaxError: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src/App.js: Unexpected token, expected "," (57:3)
+
+[0m [90m 55 |[39m [32m  });[39m[0m
+[0m [90m 56 |[39m [32m  \`\`\`[39m[0m
+[0m[31m[1m>[22m[39m[90m 57 |[39m [32m  `[39m[33m;[39m)[0m
+[0m [90m    |[39m    [31m[1m^[22m[39m[0m
+[0m [90m 58 |[39m[0m
+[0m [90m 59 |[39m   [36mconst[39m classes [33m=[39m editorMaximized[0m
+[0m [90m 60 |[39m   [33m?[39m [[32m'editorWrap maximized'[39m[33m,[39m [32m'previewWrap hide'[39m[33m,[39m [32m'fa fa-compress'[39m][0m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+src/App.js
+  [1mLine 9:1:[22m   'renderer' is not defined  [31m[4mno-undef[24m[39m
+  [1mLine 20:3:[22m  'renderer' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+src/App.js
+  [1mLine 12:3:[22m  'renderer' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+./src/App.js
+Module not found: You attempted to import [36m../css/prism.css[39m which falls outside of the project [36msrc/[39m directory. Relative imports outside of [36msrc/[39m are not supported.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+./src/App.js
+Module not found: You attempted to import [36m../css/prism.css[39m which falls outside of the project [36msrc/[39m directory. Relative imports outside of [36msrc/[39m are not supported.
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+./src/App.js
+Module not found: Can't resolve 'prism.css' in '/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src'
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+./src/App.js
+Module not found: Can't resolve 'prism.css' in '/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/src'
+/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/react-scripts/scripts/start.js:19
+  throw err;
+  ^
+
+[Error: ENOENT: no such file or directory, stat '/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/find-cache-dir/node_modules/make-dir/node_modules/.bin/semver'] {
+  errno: [33m-2[39m,
+  code: [32m'ENOENT'[39m,
+  syscall: [32m'stat'[39m,
+  path: [32m'/mnt/c/Users/renau/Desktop/Projets/markdown-previewer/node_modules/find-cache-dir/node_modules/make-dir/node_modules/.bin/semver'[39m
+}
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m markdown-previewer@0.1.0 start: `react-scripts start`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the markdown-previewer@0.1.0 start script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /home/vilpex/.npm/_logs/2021-10-27T19_51_39_685Z-debug.log
+[0m]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ npm start
+
+> markdown-previewer@0.1.0 start /mnt/c/Users/renau/Desktop/Projets/markdown-previewer
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.1.70/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+[2J[3J[H[36mStarting the development server...[39m
+[36m[39m
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+src/App.js
+  [1mLine 119:92:[22m   'code' is not defined  [31m[4mno-undef[24m[39m
+  [1mLine 119:116:[22m  'lang' is not defined  [31m[4mno-undef[24m[39m
+  [1mLine 119:123:[22m  'lang' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+src/App.js
+  [1mLine 12:1:[22m  React Hook "useEffect" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function  [31m[4mreact-hooks/rules-of-hooks[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m  'logo' is defined but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+^C
+]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ firebase init
+[1m[33m
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+[39m[22m
+You're about to initialize a Firebase project in this directory:
+
+  [1m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[22m
+
+Before we get started, keep in mind:
+
+  [1m[33m* [39m[22mYou are currently outside your home directory
+
+[?25l[32m?[39m [1mWhich Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.[22m[0m [0m(Press [36m[1m<space>[22m[39m to select, [36m[1m<a>[22m[39m to toggle all, [36m[1m<i>[22m[39m to invert selection)
+[36m❯◯ Realtime Database: Configure a security rules file for Realtime Database and (optionally) provision default instance[39m
+ ◯ Firestore: Configure security rules and indexes files for Firestore
+ ◯ Functions: Configure a Cloud Functions directory and its files
+ ◯ Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+ ◯ Hosting: Set up GitHub Action deploys
+ ◯ Storage: Configure a security rules file for Cloud Storage
+ ◯ Emulators: Set up local emulators for Firebase products
+[2m(Move up and down to reveal more choices)[22m[41D[41C
+[33m[39m
+[33m   ╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮[39m
+   [33m│[39m                                                                                                                     [33m│[39m
+   [33m│[39m                                          Update available [38;5;240m9.20.0[39m → [32m9.21.0[39m                                           [33m│[39m
+   [33m│[39m                    To update to the latest version using npm, run [36mnpm install -g firebase-tools[39m                     [33m│[39m
+   [33m│[39m   For other CLI management options, visit the [0m[34mCLI documentation ([34m[4mhttps://firebase.google.com/docs/cli#update-cli[24m[34m)[39m[0m   [33m│[39m
+   [33m│[39m                                                                                                                     [33m│[39m
+   [33m│[39m                                                                                                                     [33m│[39m
+   [33m│[39m                                                                                                                     [33m│[39m
+[33m   ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯[39m
+[33m[39m
+[?25h]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ firebase init[4Pnpm start
+
+> markdown-previewer@0.1.0 start /mnt/c/Users/renau/Desktop/Projets/markdown-previewer
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.1.70/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+[2J[3J[H[36mStarting the development server...[39m
+[36m[39m
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+src/App.js
+  [1mLine 152:52:[22m  'renderer' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+src/App.js
+  [1mLine 153:52:[22m  'renderer' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 8:8:[22m   'prismjs' is defined but never used    [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+src/App.js
+  [1mLine 84:20:[22m  'Prism' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined bu
