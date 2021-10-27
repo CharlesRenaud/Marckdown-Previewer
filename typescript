@@ -2358,4 +2358,440 @@ Search for the [4m[31mkeywords[39m[24m to learn more about each error.
 src/App.js
   [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
   [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
-  [1mLine 3:25:[22m  'useEffect' is defined bu
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+^C
+]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ git init
+Reinitialized existing Git repository in /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/.git/
+]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ git add .
+]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ git commit[K[K[K[K[K[K[K[K[K[Knpm run build
+
+> markdown-previewer@0.1.0 build /mnt/c/Users/renau/Desktop/Projets/markdown-previewer
+> react-scripts build
+
+Creating an optimized production build...
+[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+File sizes after gzip:
+
+  63.22 KB  [2mbuild/static/js/[22m[36m2.5c2f3ac6.chunk.js[39m
+  23.57 KB  [2mbuild/static/css/[22m[36m2.0a9ec390.chunk.css[39m
+  1.64 KB   [2mbuild/static/js/[22m[36mmain.3fc67b96.chunk.js[39m
+  1.64 KB   [2mbuild/static/js/[22m[36m3.a14a9465.chunk.js[39m
+  1.46 KB   [2mbuild/static/css/[22m[36mmain.856925f8.chunk.css[39m
+  1.18 KB   [2mbuild/static/js/[22m[36mruntime-main.7895e2d1.js[39m
+
+The project was built assuming it is hosted at [32m/[39m.
+You can control this with the [32mhomepage[39m field in your [36mpackage.json[39m.
+
+The [36mbuild[39m folder is ready to be deployed.
+You may serve it with a static server:
+
+  [36mnpm[39m install -g serve
+  [36mserve[39m -s build
+
+Find out more about deployment here:
+
+  [33mhttps://cra.link/deployment[39m
+
+]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ npm run build[4Pgit add .[1Pinitadd .*
+fatal: ..: '..' is outside repository
+]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ git add .*[K
+]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ git add .*npm run build[4Pgit add .[1Pinitnpm start[1Pgit initadd .[K[K[K[K[Kcommit -m "first buidl[K[Kld"
+[master 3e76ea0] first build
+ 11 files changed, 19081 insertions(+), 11542 deletions(-)
+ create mode 100644 package-lock.json
+ rewrite src/App.css (100%)
+ rewrite src/App.js (77%)
+ delete mode 100644 src/index.css
+ create mode 100644 src/index.scss
+ create mode 100644 src/prism.css
+ create mode 100644 typescript
+ delete mode 100644 yarn.lock
+]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ git branch -M main
+]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ git remote add origin https://github.com/CharlesRenaud/Marckdown-Previewer.git
+]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ git push -u origin main
+Counting objects: 35, done.
+Delta compression using up to 12 threads.
+Compressing objects:   2% (1/34)   Compressing objects:   5% (2/34)   Compressing objects:   8% (3/34)   Compressing objects:  11% (4/34)   Compressing objects:  14% (5/34)   Compressing objects:  17% (6/34)   Compressing objects:  20% (7/34)   Compressing objects:  23% (8/34)   Compressing objects:  26% (9/34)   Compressing objects:  29% (10/34)   Compressing objects:  32% (11/34)   Compressing objects:  35% (12/34)   Compressing objects:  38% (13/34)   Compressing objects:  41% (14/34)   Compressing objects:  44% (15/34)   Compressing objects:  47% (16/34)   Compressing objects:  50% (17/34)   Compressing objects:  52% (18/34)   Compressing objects:  55% (19/34)   Compressing objects:  58% (20/34)   Compressing objects:  61% (21/34)   Compressing objects:  64% (22/34)   Compressing objects:  67% (23/34)   Compressing objects:  70% (24/34)   Compressing objects:  73% (25/34)   Compressing objects:  76% (26/34)   Compressing objects:  79% (27/34)   Compressing objects:  82% (28/34)   Compressing objects:  85% (29/34)   Compressing objects:  88% (30/34)   Compressing objects:  91% (31/34)   Compressing objects:  94% (32/34)   Compressing objects:  97% (33/34)   Compressing objects: 100% (34/34)   Compressing objects: 100% (34/34), done.
+Writing objects:   2% (1/35)   Writing objects:   5% (2/35)   Writing objects:   8% (3/35)   Writing objects:  11% (4/35)   Writing objects:  14% (5/35)   Writing objects:  17% (6/35)   Writing objects:  20% (7/35)   Writing objects:  22% (8/35)   Writing objects:  25% (9/35)   Writing objects:  28% (10/35)   Writing objects:  31% (11/35)   Writing objects:  34% (12/35)   Writing objects:  37% (13/35)   Writing objects:  40% (14/35)   Writing objects:  42% (15/35)   Writing objects:  45% (16/35)   Writing objects:  48% (17/35)   Writing objects:  51% (18/35)   Writing objects:  54% (19/35)   Writing objects:  57% (20/35)   Writing objects:  60% (21/35)   Writing objects:  62% (22/35)   Writing objects:  65% (23/35)   Writing objects:  68% (24/35)   Writing objects:  71% (25/35)   Writing objects:  74% (26/35)   Writing objects:  77% (27/35)   Writing objects:  80% (28/35)   Writing objects:  82% (29/35)   Writing objects:  85% (30/35)   Writing objects:  88% (31/35)   Writing objects:  91% (32/35)   Writing objects:  94% (33/35)   Writing objects:  97% (34/35)   Writing objects: 100% (35/35)   Writing objects: 100% (35/35), 389.00 KiB | 10.24 MiB/s, done.
+Total 35 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), done.[K
+To https://github.com/CharlesRenaud/Marckdown-Previewer.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ firebase init
+[1m[33m
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+[39m[22m
+You're about to initialize a Firebase project in this directory:
+
+  [1m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[22m
+
+Before we get started, keep in mind:
+
+  [1m[33m* [39m[22mYou are currently outside your home directory
+
+[?25l[32m?[39m [1mWhich Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.[22m[0m [0m(Press [36m[1m<space>[22m[39m to select, [36m[1m<a>[22m[39m to toggle all, [36m[1m<i>[22m[39m to invert selection)
+[36m❯◯ Realtime Database: Configure a security rules file for Realtime Database and (optionally) provision default instance[39m
+ ◯ Firestore: Configure security rules and indexes files for Firestore
+ ◯ Functions: Configure a Cloud Functions directory and its files
+ ◯ Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+ ◯ Hosting: Set up GitHub Action deploys
+ ◯ Storage: Configure a security rules file for Cloud Storage
+ ◯ Emulators: Set up local emulators for Firebase products
+[2m(Move up and down to reveal more choices)[22m[41D[41C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m?[39m [1mWhich Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.[22m[0m [0m(Press [36m[1m<space>[22m[39m to select, [36m[1m<a>[22m[39m to toggle all, [36m[1m<i>[22m[39m to invert selection)
+ ◯ Realtime Database: Configure a security rules file for Realtime Database and (optionally) provision default instance
+[36m❯◯ Firestore: Configure security rules and indexes files for Firestore[39m
+ ◯ Functions: Configure a Cloud Functions directory and its files
+ ◯ Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+ ◯ Hosting: Set up GitHub Action deploys
+ ◯ Storage: Configure a security rules file for Cloud Storage
+ ◯ Emulators: Set up local emulators for Firebase products
+[2m(Move up and down to reveal more choices)[22m[41D[41C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m?[39m [1mWhich Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.[22m[0m [0m(Press [36m[1m<space>[22m[39m to select, [36m[1m<a>[22m[39m to toggle all, [36m[1m<i>[22m[39m to invert selection)
+ ◯ Realtime Database: Configure a security rules file for Realtime Database and (optionally) provision default instance
+ ◯ Firestore: Configure security rules and indexes files for Firestore
+[36m❯◯ Functions: Configure a Cloud Functions directory and its files[39m
+ ◯ Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+ ◯ Hosting: Set up GitHub Action deploys
+ ◯ Storage: Configure a security rules file for Cloud Storage
+ ◯ Emulators: Set up local emulators for Firebase products
+[2m(Move up and down to reveal more choices)[22m[41D[41C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m?[39m [1mWhich Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.[22m[0m [0m(Press [36m[1m<space>[22m[39m to select, [36m[1m<a>[22m[39m to toggle all, [36m[1m<i>[22m[39m to invert selection)
+ ◯ Realtime Database: Configure a security rules file for Realtime Database and (optionally) provision default instance
+ ◯ Firestore: Configure security rules and indexes files for Firestore
+ ◯ Functions: Configure a Cloud Functions directory and its files
+[36m❯◯ Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys[39m
+ ◯ Hosting: Set up GitHub Action deploys
+ ◯ Storage: Configure a security rules file for Cloud Storage
+ ◯ Emulators: Set up local emulators for Firebase products
+[2m(Move up and down to reveal more choices)[22m[41D[41C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m?[39m [1mWhich Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.[22m[0m [0m(Press [36m[1m<space>[22m[39m to select, [36m[1m<a>[22m[39m to toggle all, [36m[1m<i>[22m[39m to invert selection)
+ ◯ Firestore: Configure security rules and indexes files for Firestore
+ ◯ Functions: Configure a Cloud Functions directory and its files
+ ◯ Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+[36m❯◯ Hosting: Set up GitHub Action deploys[39m
+ ◯ Storage: Configure a security rules file for Cloud Storage
+ ◯ Emulators: Set up local emulators for Firebase products
+ ◯ Remote Config: Configure a template file for Remote Config
+[2m(Move up and down to reveal more choices)[22m[41D[41C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m?[39m [1mWhich Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.[22m[0m [0m(Press [36m[1m<space>[22m[39m to select, [36m[1m<a>[22m[39m to toggle all, [36m[1m<i>[22m[39m to invert selection)
+ ◯ Realtime Database: Configure a security rules file for Realtime Database and (optionally) provision default instance
+ ◯ Firestore: Configure security rules and indexes files for Firestore
+ ◯ Functions: Configure a Cloud Functions directory and its files
+[36m❯◯ Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys[39m
+ ◯ Hosting: Set up GitHub Action deploys
+ ◯ Storage: Configure a security rules file for Cloud Storage
+ ◯ Emulators: Set up local emulators for Firebase products
+[2m(Move up and down to reveal more choices)[22m[41D[41C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m?[39m [1mWhich Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.[22m[0m [0m(Press [36m[1m<space>[22m[39m to select, [36m[1m<a>[22m[39m to toggle all, [36m[1m<i>[22m[39m to invert selection)
+ ◯ Firestore: Configure security rules and indexes files for Firestore
+ ◯ Functions: Configure a Cloud Functions directory and its files
+ ◯ Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+[36m❯◯ Hosting: Set up GitHub Action deploys[39m
+ ◯ Storage: Configure a security rules file for Cloud Storage
+ ◯ Emulators: Set up local emulators for Firebase products
+ ◯ Remote Config: Configure a template file for Remote Config
+[2m(Move up and down to reveal more choices)[22m[41D[41C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m?[39m [1mWhich Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.[22m[0m [0m(Press [36m[1m<space>[22m[39m to select, [36m[1m<a>[22m[39m to toggle all, [36m[1m<i>[22m[39m to invert selection)
+ ◯ Realtime Database: Configure a security rules file for Realtime Database and (optionally) provision default instance
+ ◯ Firestore: Configure security rules and indexes files for Firestore
+ ◯ Functions: Configure a Cloud Functions directory and its files
+[36m❯◯ Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys[39m
+ ◯ Hosting: Set up GitHub Action deploys
+ ◯ Storage: Configure a security rules file for Cloud Storage
+ ◯ Emulators: Set up local emulators for Firebase products
+[2m(Move up and down to reveal more choices)[22m[41D[41C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m?[39m [1mWhich Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.[22m[0m [0m
+ ◯ Realtime Database: Configure a security rules file for Realtime Database and (optionally) provision default instance
+ ◯ Firestore: Configure security rules and indexes files for Firestore
+ ◯ Functions: Configure a Cloud Functions directory and its files
+[36m❯[32m◉[36m Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys[39m
+ ◯ Hosting: Set up GitHub Action deploys
+ ◯ Storage: Configure a security rules file for Cloud Storage
+ ◯ Emulators: Set up local emulators for Firebase products
+[2m(Move up and down to reveal more choices)[22m[41D[41C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m?[39m [1mWhich Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.[22m[0m [0m[36mHosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action
+ deploys[39m[8D[8C
+[?25h[1m
+[37m=== [39mProject Setup[22m
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running [1mfirebase use --add[22m, 
+but for now we'll just set up a default project.
+
+[?25l[32m?[39m [1mPlease select an option:[22m[0m [0m[2m(Use arrow keys)[22m
+[36m❯ Use an existing project[39m 
+  Create a new project 
+  Add Firebase to an existing Google Cloud Platform project 
+  Don't set up a default project [33D[33C[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m?[39m [1mPlease select an option:[22m[0m [0m
+  Use an existing project 
+[36m❯ Create a new project[39m 
+  Add Firebase to an existing Google Cloud Platform project 
+  Don't set up a default project [33D[33C[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m?[39m [1mPlease select an option:[22m[0m [0m[36mCreate a new project[39m[47D[47C
+[?25h[1m[36mi [39m[22m If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project.
+[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22m[4D[4C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mm[5D[5C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mma[6D[6C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmar[7D[7C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarc[8D[8C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmar[7D[7C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarr[8D[8C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmar[7D[7C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarc[8D[8C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarck[9D[9C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarckd[10D[10C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarckdo[11D[11C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarckdow[12D[12C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarckdown[13D[13C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarckdown-[14D[14C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarckdown-p[15D[15C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarckdown-pr[16D[16C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarckdown-pre[17D[17C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarckdown-prev[18D[18C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarckdown-previ[19D[19C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarckdown-previe[20D[20C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarckdown-preview[21D[21C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarckdown-previewe[22D[22C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[2m() [22mmarckdown-previewer[23D[23C[2K[1A[2K[G[32m?[39m [1mPlease specify a unique project id ([33mwarning[39m: cannot be modified afterward) [6-30 characters]:[22m
+[1m[22m[0m [0m[36mmarckdown-previewer[39m[20D[20C
+[32m?[39m [1mWhat would you like to call your project? (defaults to your project ID)[22m[0m [0m[2m() [22m[77D[77C[2K[G[32m?[39m [1mWhat would you like to call your project? (defaults to your project ID)[22m[0m [0m[74D[74C
+[?25l[36m⠋[39m Creating Google Cloud Platform project[2K[1G[36m⠙[39m Creating Google Cloud Platform project[2K[1G[36m⠹[39m Creating Google Cloud Platform project[2K[1G[36m⠸[39m Creating Google Cloud Platform project[2K[1G[36m⠼[39m Creating Google Cloud Platform project[2K[1G[36m⠴[39m Creating Google Cloud Platform project[2K[1G[36m⠦[39m Creating Google Cloud Platform project[2K[1G[36m⠧[39m Creating Google Cloud Platform project[2K[1G[36m⠇[39m Creating Google Cloud Platform project[2K[1G[36m⠏[39m Creating Google Cloud Platform project[2K[1G[36m⠋[39m Creating Google Cloud Platform project[2K[1G[36m⠙[39m Creating Google Cloud Platform project[2K[1G[36m⠹[39m Creating Google Cloud Platform project[2K[1G[36m⠸[39m Creating Google Cloud Platform project[2K[1G[36m⠼[39m Creating Google Cloud Platform project[2K[1G[36m⠴[39m Creating Google Cloud Platform project[2K[1G[36m⠦[39m Creating Google Cloud Platform project[2K[1G[36m⠧[39m Creating Google Cloud Platform project[2K[1G[36m⠇[39m Creating Google Cloud Platform project[2K[1G[36m⠏[39m Creating Google Cloud Platform project[2K[1G[36m⠋[39m Creating Google Cloud Platform project[2K[1G[36m⠙[39m Creating Google Cloud Platform project[2K[1G[36m⠹[39m Creating Google Cloud Platform project[2K[1G[36m⠸[39m Creating Google Cloud Platform project[2K[1G[36m⠼[39m Creating Google Cloud Platform project[2K[1G[36m⠴[39m Creating Google Cloud Platform project[2K[1G[36m⠦[39m Creating Google Cloud Platform project[2K[1G[36m⠧[39m Creating Google Cloud Platform project[2K[1G[36m⠇[39m Creating Google Cloud Platform project[2K[1G[36m⠏[39m Creating Google Cloud Platform project[2K[1G[36m⠋[39m Creating Google Cloud Platform project[2K[1G[36m⠙[39m Creating Google Cloud Platform project[2K[1G[36m⠹[39m Creating Google Cloud Platform project[2K[1G[36m⠸[39m Creating Google Cloud Platform project[2K[1G[36m⠼[39m Creating Google Cloud Platform project[2K[1G[36m⠴[39m Creating Google Cloud Platform project[2K[1G[36m⠦[39m Creating Google Cloud Platform project[2K[1G[36m⠧[39m Creating Google Cloud Platform project[2K[1G[36m⠇[39m Creating Google Cloud Platform project[2K[1G[36m⠏[39m Creating Google Cloud Platform project[2K[1G[36m⠋[39m Creating Google Cloud Platform project[2K[1G[36m⠙[39m Creating Google Cloud Platform project[2K[1G[36m⠹[39m Creating Google Cloud Platform project[2K[1G[36m⠸[39m Creating Google Cloud Platform project[2K[1G[36m⠼[39m Creating Google Cloud Platform project[2K[1G[36m⠴[39m Creating Google Cloud Platform project[2K[1G[36m⠦[39m Creating Google Cloud Platform project[2K[1G[36m⠧[39m Creating Google Cloud Platform project[2K[1G[36m⠇[39m Creating Google Cloud Platform project[2K[1G[36m⠏[39m Creating Google Cloud Platform project[2K[1G[36m⠋[39m Creating Google Cloud Platform project[2K[1G[36m⠙[39m Creating Google Cloud Platform project[2K[1G[36m⠹[39m Creating Google Cloud Platform project[2K[1G[36m⠸[39m Creating Google Cloud Platform project[2K[1G[36m⠼[39m Creating Google Cloud Platform project[2K[1G[36m⠴[39m Creating Google Cloud Platform project[2K[1G[36m⠦[39m Creating Google Cloud Platform project[2K[1G[36m⠧[39m Creating Google Cloud Platform project[2K[1G[36m⠇[39m Creating Google Cloud Platform project[2K[1G[36m⠏[39m Creating Google Cloud Platform project[2K[1G[36m⠋[39m Creating Google Cloud Platform project[2K[1G[36m⠙[39m Creating Google Cloud Platform project[2K[1G[36m⠹[39m Creating Google Cloud Platform project[2K[1G[36m⠸[39m Creating Google Cloud Platform project[2K[1G[36m⠼[39m Creating Google Cloud Platform project[2K[1G[36m⠴[39m Creating Google Cloud Platform project[2K[1G[36m⠦[39m Creating Google Cloud Platform project[2K[1G[36m⠧[39m Creating Google Cloud Platform project[2K[1G[36m⠇[39m Creating Google Cloud Platform project[2K[1G[36m⠏[39m Creating Google Cloud Platform project[2K[1G[36m⠋[39m Creating Google Cloud Platform project[2K[1G[36m⠙[39m Creating Google Cloud Platform project[2K[1G[36m⠹[39m Creating Google Cloud Platform project[2K[1G[36m⠸[39m Creating Google Cloud Platform project[2K[1G[36m⠼[39m Creating Google Cloud Platform project[2K[1G[36m⠴[39m Creating Google Cloud Platform project[2K[1G[?25h[32m✔[39m Creating Google Cloud Platform project
+[?25l[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠸[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠼[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠴[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠦[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠧[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠇[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠏[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠋[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠙[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[36m⠹[39m Adding Firebase resources to Google Cloud Platform project[2K[1G[?25h[32m✔[39m Adding Firebase resources to Google Cloud Platform project
+
+🎉🎉🎉 Your Firebase project is ready! 🎉🎉🎉
+
+Project information:
+   - Project ID: [1mmarckdown-previewer[22m
+   - Project Name: [1mmarckdown-previewer[22m
+
+Firebase console is available at
+https://console.firebase.google.com/project/[1mmarckdown-previewer[22m/overview
+[1m[36mi [39m[22m Using project marckdown-previewer (marckdown-previewer)
+[1m
+[37m=== [39mHosting Setup[22m
+
+Your [1mpublic[22m directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with [1mfirebase deploy[22m. If you
+have a build process for your assets, use your build's output directory.
+
+[32m?[39m [1mWhat do you want to use as your public directory?[22m[0m [0m[2m(public) [22m[61D[61C[2K[G[32m?[39m [1mWhat do you want to use as your public directory?[22m[0m [0mb[53D[53C[2K[G[32m?[39m [1mWhat do you want to use as your public directory?[22m[0m [0mbu[54D[54C[2K[G[32m?[39m [1mWhat do you want to use as your public directory?[22m[0m [0mbui[55D[55C[2K[G[32m?[39m [1mWhat do you want to use as your public directory?[22m[0m [0mbuil[56D[56C[2K[G[32m?[39m [1mWhat do you want to use as your public directory?[22m[0m [0mbuild[57D[57C[2K[G[32m?[39m [1mWhat do you want to use as your public directory?[22m[0m [0m[36mbuild[39m[57D[57C
+[32m?[39m [1mConfigure as a single-page app (rewrite all urls to /index.html)?[22m[0m [0m[2m(y/N) [22m[74D[74C[2K[G[32m?[39m [1mConfigure as a single-page app (rewrite all urls to /index.html)?[22m[0m [0m[2m(y/N) [22mN[75D[75C[2K[G[32m?[39m [1mConfigure as a single-page app (rewrite all urls to /index.html)?[22m[0m [0m[36mNo[39m[70D[70C
+[32m?[39m [1mSet up automatic builds and deploys with GitHub?[22m[0m [0m[2m(y/N) [22m[57D[57C[2K[G[32m?[39m [1mSet up automatic builds and deploys with GitHub?[22m[0m [0m[2m(y/N) [22mN[58D[58C[2K[G[32m?[39m [1mSet up automatic builds and deploys with GitHub?[22m[0m [0m[36mNo[39m[53D[53C
+[1m[32m✔ [39m[22m Wrote [1mbuild/404.html[22m
+[32m?[39m [1mFile [4mbuild/index.html[24m already exists. Overwrite?[22m[0m [0m[2m(y/N) [22m[57D[57C[2K[G[32m?[39m [1mFile [4mbuild/index.html[24m already exists. Overwrite?[22m[0m [0m[2m(y/N) [22mN[58D[58C[2K[G[32m?[39m [1mFile [4mbuild/index.html[24m already exists. Overwrite?[22m[0m [0m[36mNo[39m[53D[53C
+[1m[36mi [39m[22m Skipping write of [1mbuild/index.html[22m
+
+[1m[36mi [39m[22m Writing configuration info to [1mfirebase.json[22m...
+[1m[36mi [39m[22m Writing project information to [1m.firebaserc[22m...
+
+[1m[32m✔ [39m[22m Firebase initialization complete!
+[33m[39m
+[33m   ╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮[39m
+   [33m│[39m                                                                                                                     [33m│[39m
+   [33m│[39m                                          Update available [38;5;240m9.20.0[39m → [32m9.21.0[39m                                           [33m│[39m
+   [33m│[39m                    To update to the latest version using npm, run [36mnpm install -g firebase-tools[39m                     [33m│[39m
+   [33m│[39m   For other CLI management options, visit the [0m[34mCLI documentation ([34m[4mhttps://firebase.google.com/docs/cli#update-cli[24m[34m)[39m[0m   [33m│[39m
+   [33m│[39m                                                                                                                     [33m│[39m
+   [33m│[39m                                                                                                                     [33m│[39m
+   [33m│[39m                                                                                                                     [33m│[39m
+[33m   ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯[39m
+[33m[39m
+[?25h]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ firebase deploy
+
+[1m[37m===[39m Deploying to 'marckdown-previewer'...[22m
+
+[1m[36mi [39m[22m deploying [1mhosting[22m
+[1m[36mi  hosting[marckdown-previewer]:[39m[22m beginning deploy...
+[1m[36mi  hosting[marckdown-previewer]:[39m[22m found 22 files in [1mbuild[22m
+[2K[9999D[1m[36m⠋  hosting: [39m[22madding files to version [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠙  hosting: [39m[22madding files to version [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠹  hosting: [39m[22madding files to version [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠸  hosting: [39m[22madding files to version [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠼  hosting: [39m[22madding files to version [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠴  hosting: [39m[22madding files to version [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠦  hosting: [39m[22madding files to version [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠧  hosting: [39m[22muploading new files [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠇  hosting: [39m[22muploading new files [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠏  hosting: [39m[22muploading new files [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠋  hosting: [39m[22muploading new files [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠙  hosting: [39m[22muploading new files [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠹  hosting: [39m[22muploading new files [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠸  hosting: [39m[22muploading new files [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠼  hosting: [39m[22muploading new files [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠴  hosting: [39m[22muploading new files [0/22] ([1m[32m0%[39m[22m)[2K[9999D[1m[36m⠦  hosting: [39m[22muploading new files [4/22] ([1m[32m18%[39m[22m)[2K[9999D[1m[36m⠧  hosting: [39m[22muploading new files [8/22] ([1m[32m36%[39m[22m)[2K[9999D[1m[36m⠇  hosting: [39m[22muploading new files [10/22] ([1m[32m45%[39m[22m)[2K[9999D[1m[36m⠏  hosting: [39m[22muploading new files [11/22] ([1m[32m50%[39m[22m)[2K[9999D[1m[36m⠋  hosting: [39m[22muploading new files [17/22] ([1m[32m77%[39m[22m)[2K[9999D[1m[36m⠙  hosting: [39m[22muploading new files [17/22] ([1m[32m77%[39m[22m)[2K[9999D[1m[36m⠹  hosting: [39m[22muploading new files [19/22] ([1m[32m86%[39m[22m)[2K[9999D[1m[36m⠸  hosting: [39m[22muploading new files [19/22] ([1m[32m86%[39m[22m)[2K[9999D[1m[36m⠼  hosting: [39m[22muploading new files [19/22] ([1m[32m86%[39m[22m)[2K[9999D[1m[36m⠴  hosting: [39m[22muploading new files [19/22] ([1m[32m86%[39m[22m)[2K[9999D[1m[36m⠦  hosting: [39m[22muploading new files [19/22] ([1m[32m86%[39m[22m)[2K[9999D[1m[36m⠧  hosting: [39m[22muploading new files [19/22] ([1m[32m86%[39m[22m)[2K[9999D[1m[36m⠇  hosting: [39m[22muploading new files [19/22] ([1m[32m86%[39m[22m)[2K[9999D[1m[36m⠏  hosting: [39m[22muploading new files [19/22] ([1m[32m86%[39m[22m)[2K[9999D[1m[36m⠋  hosting: [39m[22muploading new files [19/22] ([1m[32m86%[39m[22m)[2K[9999D[1m[36m⠙  hosting: [39m[22muploading new files [19/22] ([1m[32m86%[39m[22m)[2K[9999D[1m[36m⠹  hosting: [39m[22muploading new files [19/22] ([1m[32m86%[39m[22m)[2K[9999D[1m[36m⠸  hosting: [39m[22muploading new files [19/22] ([1m[32m86%[39m[22m)[2K[9999D[1m[36m⠼  hosting: [39m[22muploading new files [19/22] ([1m[32m86%[39m[22m)[2K[9999D[1m[36m⠴  hosting: [39m[22muploading new files [19/22] ([1m[32m86%[39m[22m)[2K[9999D[1m[36m⠦  hosting: [39m[22muploading new files [20/22] ([1m[32m90%[39m[22m)[2K[9999D[1m[36m⠧  hosting: [39m[22muploading new files [20/22] ([1m[32m90%[39m[22m)[2K[9999D[1m[36m⠇  hosting: [39m[22muploading new files [20/22] ([1m[32m90%[39m[22m)[2K[9999D[1m[36m⠏  hosting: [39m[22muploading new files [20/22] ([1m[32m90%[39m[22m)[2K[9999D[1m[36m⠋  hosting: [39m[22muploading new files [20/22] ([1m[32m90%[39m[22m)[2K[9999D[1m[36m⠙  hosting: [39m[22muploading new files [20/22] ([1m[32m90%[39m[22m)[2K[9999D[1m[36m⠹  hosting: [39m[22muploading new files [20/22] ([1m[32m90%[39m[22m)[2K[9999D[1m[36m⠸  hosting: [39m[22muploading new files [20/22] ([1m[32m90%[39m[22m)[2K[9999D[1m[36m⠼  hosting: [39m[22muploading new files [21/22] ([1m[32m95%[39m[22m)[2K[9999D[1m[36m⠴  hosting: [39m[22muploading new files [21/22] ([1m[32m95%[39m[22m)[2K[9999D[1m[36m⠦  hosting: [39m[22muploading new files [21/22] ([1m[32m95%[39m[22m)[2K[9999D[1m[36m⠧  hosting: [39m[22muploading new files [21/22] ([1m[32m95%[39m[22m)[2K[9999D[1m[36m⠇  hosting: [39m[22muploading new files [21/22] ([1m[32m95%[39m[22m)[2K[9999D[1m[36m⠏  hosting: [39m[22muploading new files [21/22] ([1m[32m95%[39m[22m)[2K[9999D[1m[32m✔  hosting[marckdown-previewer]:[39m[22m file upload complete
+[1m[36mi  hosting[marckdown-previewer]:[39m[22m finalizing version...
+[1m[32m✔  hosting[marckdown-previewer]:[39m[22m version finalized
+[1m[36mi  hosting[marckdown-previewer]:[39m[22m releasing new version...
+[1m[32m✔  hosting[marckdown-previewer]:[39m[22m release complete
+
+[1m[32m✔ [39m[22m [1m[4mDeploy complete![24m[22m
+
+[1mProject Console:[22m https://console.firebase.google.com/project/marckdown-previewer/overview
+[1mHosting URL:[22m https://marckdown-previewer.web.app
+]0;vilpex@DESKTOP-QG73A68: /mnt/c/Users/renau/Desktop/Projets/markdown-previewer[01;32mvilpex@DESKTOP-QG73A68[00m:[01;34m/mnt/c/Users/renau/Desktop/Projets/markdown-previewer[00m$ npm start
+
+> markdown-previewer@0.1.0 start /mnt/c/Users/renau/Desktop/Projets/markdown-previewer
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.1.70/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /mnt/c/Users/renau/Desktop/Projets/markdown-previewer/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+[2J[3J[H[36mStarting the development server...[39m
+[36m[39m
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+src/App.js
+  [1mLine 17:68:[22m  'javascript' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 1:8:[22m   'logo' is defined but never used       [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:8:[22m   'react' is defined but never used      [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:25:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warn

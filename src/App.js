@@ -14,7 +14,7 @@ const renderer = new marked.Renderer();
     breaks: true,
     highlight: function(code, lang) {
       try {
-        return prismjs.highlightAll(code, prismjs.languages[lang], lang);
+        return prismjs.highlight(code, prismjs.languages.javascript, 'javascript');
       } catch {
         return code;
       }
@@ -36,16 +36,14 @@ function App() {
   
   Heres some code, \`<div></div>\`, between 2 backticks.
   
-  \`\`\` javascript
-  marked.setOptions({
-    highlight: function(code, lang) {
-      try {
-        return prismjs.highlight(code, prismjs.languages[lang], lang);
-      } catch {
-        return code;
-      }
+  \`\`\`
+  // this is multi-line code:
+  
+  function anotherExample(firstLine, lastLine) {
+    if (firstLine == '\`\`\`' && lastLine == '\`\`\`') {
+      return multiLineCode;
     }
-  });
+  }
   \`\`\`
   
   You can also make text **bold**... whoa!
